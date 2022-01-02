@@ -9,3 +9,9 @@ The Passport is shipped in a white cardboard box with a blue tamper-evident secu
   <img width="450" src="assets/passport0_1.jpg">
 </p>
 
+Inside the cardboard box you will find a bubble-wrapped box containing the Passport. This inner box also has a tamper-evident seal on it. You will also find some stickers and a notecard with some basic explainations on it about your new Passport. The founders addition includes a miniture copy of the Bitcoin white paper printed in the form of a passport. 
+
+<p align="center">
+  <img width="450" src="assets/passport1.jpg">
+  <img width="450" src="assets/passport2.jpg">
+</p>
