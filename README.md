@@ -11,4 +11,6 @@ This guide covers:
 - PIN Setup
 - Firmware Update
 - Creating a Seed Phrase
+- Creating a Passphrase
+- Backup Considerations
 - Connecting & Transaction with [Sparrow Wallet](https://www.sparrowwallet.com/)
