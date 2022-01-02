@@ -15,3 +15,8 @@ Inside the cardboard box you will find a bubble-wrapped box containing the Passp
   <img width="450" src="assets/passport1.jpg">
   <img width="450" src="assets/passport2.jpg">
 </p>
+
+<p align="center">
+  <img width="450" src="assets/passport3.jpg">
+  <img width="450" src="assets/passport4.jpg">
+</p>
