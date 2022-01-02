@@ -20,3 +20,11 @@ Inside the cardboard box you will find a bubble-wrapped box containing the Passp
   <img width="450" src="assets/passport3.jpg">
   <img width="450" src="assets/passport4.jpg">
 </p>
+
+After removing the bubble wrap and cutting the tamper-evident seal, inside the inner box you will find your new Passport. Underneath the Passport you will find two AAA batteries and two 8GB microSD cards. 
+
+<p align="center">
+  <img width="450" src="assets/passport5.jpg">
+  <img width="450" src="assets/passport6.jpg">
+</p>
+
