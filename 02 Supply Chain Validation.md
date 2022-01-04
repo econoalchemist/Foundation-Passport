@@ -3,8 +3,36 @@ This section demonstrates how to power on the Passport and execute the supply ch
 
 Hold down the button in the lower left-hand corner of the Passport. After initial boot, you will be greated with a welcome message. You can scroll to the bottom of that message by holding the <kbd>down arrow</kbd> then press the <kbd>continue</kbd> button.
 
-<p >
+<p align="center">
+<img width="300" src="assets/passport13.jpg">
+<img width="300" src="assets/passport14.jpg">
+<img width="300" src="assets/passport15.jpg">
+  </p>
+  
+- Next, you will see a QR code that you can scan with your phone to visit the [Setup Guide](https://docs.foundationdevices.com/setup-guide) if you haven't done so already. 
+- Then you will need to accept the [Terms of Use](https://foundationdevices.com/passport-terms/) by pressing the <kbd>continue</kbd> button.
+- Finally, confirm having read the terms by pressing the <kbd>continue</kbd> button. 
 
-[Terms of use](https://foundationdevices.com/passport-terms/)
+<p align="center">
+<img width="300" src="assets/passport16.jpg">
+<img width="300" src="assets/passport17.jpg">
+<img width="300" src="assets/passport18.jpg">
+  </p>
 
-[Validation link](https://validate.foundationdevices.com/)
+For this next step, ensure your batteries are well charged, then you will want to have the [Supply Chain Validation](https://validate.foundationdevices.com/) QR code open on your computer or phone. Read and scroll down to the end of the Validation message, then press the <kbd>continue</kbd> button. This will launch the camera and you can then scan the validation QR code on your device's screen. 
+
+<p align="center">
+<img width="300" src="assets/passport19.jpg">
+<img width="300" src="assets/passport20.jpg">
+<img width="300" src="assets/passport21.jpg">
+  </p>
+  
+The Passport will then display 4-words on the screen. Enter these words into the interface under the validation QR code. You should receive a validation message confirming that your device is a legit Foundation device.    
+
+<p align="center">
+<img width="300" src="assets/passport22.jpg">
+<img width="300" src="assets/Validate0.png">
+<img width="300" src="assets/Validate1.png">
+  </p>
+
+
