@@ -28,3 +28,11 @@ After removing the bubble wrap and cutting the tamper-evident seal, inside the i
   <img width="450" src="assets/passport6.jpg">
 </p>
 
+All together, everything necessary to get started is included. The Passport measures 108mm in length by 38mm in width. 
+
+<p align="center">
+<img width="300" src="assets/passport7.jpg">
+<img width="300" src="assets/passport8.jpg">
+<img width="300" src="assets/passport9.jpg">
+  </p>
+
