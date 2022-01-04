@@ -44,3 +44,4 @@ To get started, simply remove the magnetic cover from the back of the device and
 <img width="300" src="assets/passport10.jpg">
   </p>
   
+Next, you'll see how to power on the Passport and verify the supplychain check to ensure the device is genuine. 
