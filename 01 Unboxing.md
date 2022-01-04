@@ -39,8 +39,8 @@ All together, everything necessary to get started is included. The Passport meas
 To get started, simply remove the magnetic cover from the back of the device and insert the included AAA batteries. The back of the included informational card has a QR code that you can scan with your phone to visit the [Foundation Devices setup page](https://docs.foundationdevices.com/en/setup-guide).
 
 <p align="center">
-<img width="300" src="assets/passport10.jpg">
 <img width="300" src="assets/passport11.jpg">
 <img width="300" src="assets/passport12.jpg">
+<img width="300" src="assets/passport10.jpg">
   </p>
   
