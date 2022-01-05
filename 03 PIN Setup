@@ -1,1 +1,7 @@
+# PIN Setup
+The PIN number is used to secure access to your Passport. Without the PIN number, your Passport will be inaccessible. There is no way to recover a lost or forgotten PIN, so be sure to secure you PIN in such a way that you will not lose access to it. 
+
+Using a PIN that is easy to guess could result in loss of bitcoin if an adversary gets ahold of your Passport. There is benefit to using a PIN that is difficult to guess. As a security feature, the Passport will brick itself if there are 21 failed PIN attempts. Once a valid PIN is entered, the counter resets to 0. 
+
+After the supply chain validation from the last section, you should see a message on your Passport that explains some details about the PIN. Scroll down to the bottom of that message with the <kbd>down arrow</kbd>. After reading the entire message, click on the <kbd>continue</kbd> button. 
 
