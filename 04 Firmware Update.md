@@ -20,7 +20,7 @@ There you will see the currently installed firmware version, the date of its rel
 
  <p align="center">
 <img width="300" src="assets/passport39.jpg">
-<img width="300" src="assets/firmware02.png">
+<img width="300" src="assets/Firmware02.png">
 <img width="300" src="assets/passport40.jpg">
   </p>
 
@@ -28,14 +28,14 @@ There you will see the currently installed firmware version, the date of its rel
 Navigate to the Foundation [Setup page](https://docs.foundationdevices.com/en/setup-guide) and click on the link to open the [firmware download](https://github.com/Foundation-Devices/passport-firmware/releases/download/v1.0.8/passport-fw-1.0.8.bin)
 
  <p align="center">
-<img width="900" src="assets/firmware00.png">
+<img width="900" src="assets/Firmware00.png">
   </p>
 
 Clicking on that link will automatically initiate the Foundation firmware `.bin` file download to your computer. Using your own USB to microSD adaptor, insert your included microSD card into the USB adaptor and then insert that adaptor into a USB port on your computer. Once the computer recognizes your USB adaptor then simply open a file explorer and copy/paste the firmware `.bin` file to the microSD card. Then safely eject the microSD card.  
 
  <p align="center">
   <img width="450" src="assets/Adaptor00.jpg">
-  <img width="450" src="assets/firmware01.png">
+  <img width="450" src="assets/Firmware01.png">
   </p>
 
 The microSD card inserts to the port on the top of the Passport. The microSD card does not fully insert to the device, it will be sticking out about half way. Ensure the pins on the microSD card are facing up, the same direction as the face of the device. 
