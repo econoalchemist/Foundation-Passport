@@ -33,8 +33,8 @@ When finished press <kbd>enter</kbd>. You will then be asked to confirm your PIN
 Again, press <kbd>enter</kbd> when finished and the Passport will save this information. From now on the PIN will be required to access your Passport. A lost or forgotten PIN cannot be retrieved from the Passport. No one can assist you with recovering a lost or forgotten PIN. The Passport will brick itself after 21 failed PIN entries. Be sure to write down and secure your entire PIN and the two anti-phishing words. Once the Passport is finished saving the PIN details, you will be at the main menu. 
 
 <p align="center">
-<img width="300" src="assets/passport31.jpg">
-<img width="300" src="assets/passport32.jpg">
+<img width="450" src="assets/passport31.jpg">
+<img width="450" src="assets/passport32.jpg">
   </p>
 
 Before setting up your new cold storage wallet, it is a good idea to ensure the firmware is up to date. 
