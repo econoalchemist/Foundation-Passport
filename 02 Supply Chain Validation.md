@@ -35,4 +35,4 @@ The Passport will then display 4-words on the screen. Enter these words into the
 <img width="300" src="assets/Validate1.png">
   </p>
 
-Then press the <kbd>VALID</kbd> button and you are ready to set up your PIN.  
+Then press the <kbd>VALID</kbd> button and you are ready to set up your PIN. At this point, it is a good idea to get a notepad and pen or pencil ready to write down some information that you will need to secure.   
