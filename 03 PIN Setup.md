@@ -1,5 +1,5 @@
 # PIN Setup
-This section demonstrates how to setup the PIN for accessing your Passport. 
+This section demonstrates how to setup the PIN for accessing your Passport. Have a notebook and pen or pencil ready. To start, there are a few considerations to understand and then the steps to complete this process are outlined.  
 
 The PIN number is used to secure access to your Passport. Without the PIN number, your Passport will be inaccessible. There is no way to recover a lost or forgotten PIN, so be sure to secure your PIN in such a way that you will not lose access to it. Best practice is to physically write this information down in a notebook that you keep private and secure. Throughout this guide, there are going to be a few pieces of information that will be sensitive in regards to accessing the Passport and the signing keys it will contain. By writing this information down on paper, you can mitigate the risks introduced using digital media. For example, in a digital file, this information can be remotely accessed on a network connected computer if the computer is compromised. Additionally, other forms of digital media such as images or video can not only be accessed remotely on a compromised device but they could also be copied and transferred quickly and easily by anyone who has physical access to the computer or other device. Although it is true that anyone with physical access to the hand-written information could easily snap a picture of it, at least the notebook could be easily hidden in an inconspicuous place or secured in a safe whereas putting a computer in a safe may not be convineient or practical.   
 
@@ -7,17 +7,34 @@ Using a PIN that is easy to guess could result in loss of bitcoin if an adversar
 
 As a security feature, the Passport will brick itself if there are 21 failed PIN attempts. Once a valid PIN is entered, the counter resets to 0. 
 
-After the supply chain validation from the last section, you should see a message on your Passport that explains some details about the PIN. Scroll down to the bottom of that message with the <kbd>down arrow</kbd>. After reading the entire message, click on the <kbd>continue</kbd> button. 
+After the supply chain validation from the last section, you should see a message on your Passport that explains some details about the PIN. Scroll down to the bottom of that message with the <kbd>down arrow</kbd>. After reading the entire message, press the <kbd>continue</kbd> button. 
 
 <p align="center">
 <img width="450" src="assets/passport23.jpg">
 <img width="450" src="assets/passport24.jpg">
   </p>
   
-Next, you will be presented with a blank PIN entry dialog. Use the numbered keys on the Passport to enter the first 4-digits of your new PIN.   
+Next, you will be presented with a blank PIN entry dialog. Use the numbered keys on the Passport to enter the first 4-digits of your new PIN. Immediatly upon entry of the 4th digit, you will be presented with the two anti-phishing words. Write down the first 4-digits of your PIN along with these two anti-phishing words. Speaking this information outloud could introduce a potential risk of exposing the details to any devices that may be listening to you. Then press the <kbd>next</kbd> button and enter the remaining part of your PIN and write that down too. This remaining part needs to be at least 2-digits long and can be as much as 8-digits in length. Your PIN in its entirety can be up to 12-digits in length. In this example, the PIN `12345678` is used. Do not use `12345678` for your PIN.      
   
   <p align="center">
-<img width="300" src="assets/passport7.jpg">
-<img width="300" src="assets/passport8.jpg">
-<img width="300" src="assets/passport9.jpg">
+<img width="300" src="assets/passport25.jpg">
+<img width="300" src="assets/passport26.jpg">
+<img width="300" src="assets/passport27.jpg">
   </p>
+  
+When finished press <kbd>enter</kbd>. You will then be asked to confirm your PIN by first re-entering the first 4-digits, confirming the two anti-phishing words, and re-entering the remaining part of the PIN.
+
+ <p align="center">
+<img width="300" src="assets/passport28.jpg">
+<img width="300" src="assets/passport29.jpg">
+<img width="300" src="assets/passport30.jpg">
+  </p>
+  
+Again, press <kbd>enter</kbd> when finished and the Passport will save this information. From now on the PIN will be required to access your Passport. A lost or forgotten PIN cannot be retrieved from the Passport. No one can assist you with recovering a lost or forgotten PIN. The Passport will brick itself after 21 failed PIN entries. Be sure to write down and secure your entire PIN and the two anti-phishing words. Once the Passport is finished saving the PIN details, you will be at the main menu. 
+
+<p align="center">
+<img width="300" src="assets/passport31.jpg">
+<img width="300" src="assets/passport32.jpg">
+  </p>
+
+Before setting up your new cold storage wallet, it is a good idea to ensure the firmware is up to date. 
