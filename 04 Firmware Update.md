@@ -42,7 +42,7 @@ The microSD card inserts to the port on the top of the Passport. The microSD car
 
  <p align="center">
   <img width="450" src="assets/passport34.jpg">
-  <img width="450" src="assets/passport35.png">
+  <img width="450" src="assets/passport35.jpg">
   </p>
 
 - From the same sub-menu where you checked the firmware version, select `Update Firmware` this time. 
