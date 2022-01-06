@@ -129,7 +129,7 @@ Now when you try to validate a signature file signed by the Foundation key it wi
 Navigate to the folder where you saved the firmware `.bin` file and the developers `.sig` signature file. Right click on the `.bin` file then select `More GpgEX options` > `Verify`. Then you should get the green certified and verifid dialog box.   
   
 <p align="center">
-<img width="900" src="assets/Firmware10.png">
+<img width="650" src="assets/Firmware10.png">
   </p>
   
 This means that so far you have confirmed that the `.bin` firmware file you downloaded is verified with the Foundation developer signature. 
