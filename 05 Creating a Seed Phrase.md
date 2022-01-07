@@ -18,8 +18,8 @@ From the main menu select `Create New Seed` then scroll to the bottom of the dis
 Next, the Passport will display a message explaining the 6-word password you are about to be given. Scroll to the bottom of that message and then select <kbd>continue</kbd>. 
 
  <p align="center">
-<img width="300" src="assets/passport52.jpg">
-<img width="300" src="assets/passport53.jpg">
+<img width="450" src="assets/passport52.jpg">
+<img width="450" src="assets/passport53.jpg">
   </p>
   
 The Passport will now display your 6-word password. Keep these words in order 1 through 6. Ensure that you save this in a way that it is accesible to you in the future and secure in the mean-time. If you ever need to restore your Passport from backup both the encrypted file from the microSD card and the 6-word password will be required. 
@@ -45,15 +45,15 @@ If you are interested in saving your seed phrase in some alternate form, it can 
 
  <p align="center">
 <img width="300" src="assets/passport59.jpg">
-<img width="000" src="assets/passport60.jpg">
-<img width="000" src="assets/passport61.jpg">
+<img width="300" src="assets/passport60.jpg">
+<img width="300" src="assets/passport61.jpg">
   </p>
   
 Then a message will be displayed explaining the risk of exposing these seed words to anyone. Scroll to the bottom of the message and select <kbe>YES</kbd> to display this sensitive information.    
 
  <p align="center">
-<img width="300" src="assets/passport62.jpg">
-<img width="300" src="assets/passport63.jpg">
+<img width="450" src="assets/passport62.jpg">
+<img width="450" src="assets/passport63.jpg">
   </p>
   
 Here you can see your 24-words. Make sure you keep them in order when notating them. Double check you work. Do not share these words with anyone. Keep them secure however you choose to back them up. Anyone who gains access to these words can gain access to your bitcoin.  
