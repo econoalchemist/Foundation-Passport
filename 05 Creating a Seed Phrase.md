@@ -62,4 +62,4 @@ Here you can see your 24-words. Make sure you keep them in order when notating t
 <img width="900" src="assets/passport64.jpg">
  </p>
  
-Testing your backups in any form is a good idea and the next section will cover some ways to ensure your backups work as they should prior to depositing any funds.  
+Testing your backups in any form is a good idea and will be covered after the Passphrase section. This will ensure your backups work as they should prior to depositing any funds.  
