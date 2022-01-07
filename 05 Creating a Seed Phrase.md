@@ -59,7 +59,7 @@ Then a message will be displayed explaining the risk of exposing these seed word
 Here you can see your 24-words. Make sure you keep them in order when notating them. Double check you work. Do not share these words with anyone. Keep them secure however you choose to back them up. Anyone who gains access to these words can gain access to your bitcoin.  
 
  <p align="center">
-<img width="900" src="assets/passport62.jpg">
+<img width="900" src="assets/passport64.jpg">
  </p>
  
 Testing your backups in any form is a good idea and the next section will cover some ways to ensure your backups work as they should prior to depositing any funds.  
