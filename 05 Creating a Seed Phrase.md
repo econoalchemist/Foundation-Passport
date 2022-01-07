@@ -37,4 +37,29 @@ Once you have saved your password, the Passport will test you on it. Simply sele
 <img width="450" src="assets/passport58.jpg">
   </p>
   
+There are other options for saving the seed phrase too. Many people like to physically write the 24-words in a notebook that they can keep secure. The advantage to this method is that physical access is required and there is absolutely no risk of remote access from a compromised device, like may be introduced when using a digital media. Some disadvantages to writing the seed phrase down on paper is that it cannot withstand extreme environments like fire or flooding.
+
+Because of this environmental risk, many people choose to save their backup information in a steel mediasuch as washers or plates. For an example, check out [this guide on the subject](https://www.econoalchemist.com/post/backup).
+
+If you are interested in saving your seed phrase in some alternate form, it can be retrieved from the Passport. Navigate to the main menu, you will notice that the menu options have changed since the seed phrase has been created. Scroll down to `Settings` > `Advanced` > `View Seed Words`.
+
+ <p align="center">
+<img width="300" src="assets/passport59.jpg">
+<img width="000" src="assets/passport60.jpg">
+<img width="000" src="assets/passport61.jpg">
+  </p>
   
+Then a message will be displayed explaining the risk of exposing these seed words to anyone. Scroll to the bottom of the message and select <kbe>YES</kbd> to display this sensitive information.    
+
+ <p align="center">
+<img width="300" src="assets/passport62.jpg">
+<img width="300" src="assets/passport63.jpg">
+  </p>
+  
+Here you can see your 24-words. Make sure you keep them in order when notating them. Double check you work. Do not share these words with anyone. Keep them secure however you choose to back them up. Anyone who gains access to these words can gain access to your bitcoin.  
+
+ <p align="center">
+<img width="900" src="assets/passport62.jpg">
+ </p>
+ 
+Testing your backups in any form is a good idea and the next section will cover some ways to ensure your backups work as they should prior to depositing any funds.  
