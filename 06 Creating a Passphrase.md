@@ -16,3 +16,51 @@ After you add a passphrase, in order to have a complete backup, you will need:
 - The passphrase & fingerprint  
 
 ### Step 1
+Login to the Passport and then from the main menu select `Settings` > `Advanced` > `Passphrase` > `Set Passphrase`. 
+
+<p align="center">
+  <img width="450" src="assets/passport65.png">
+  <img width="450" src="assets/passport66.png">
+  <img width="450" src="assets/passport67.png">
+  <img width="450" src="assets/passport68.png">
+</p>
+  
+This brings you to the screen where you can enter your passphrase. Passphrases are not limited to words like the seed phrase. Passphrases can contain any combination of special characters, lower case letters, upper case letters, or numbers.      
+  
+<p align="center">
+  <img width="450" src="assets/passport69.png">
+  <img width="450" src="assets/passport70.png">
+  <img width="450" src="assets/passport71.png">
+  <img width="450" src="assets/passport72.png">
+</p>
+
+You can make your passphrase an easy to remember phrase or even a random high-entropy string of characters. 
+
+<p align="center">
+  <img width="450" src="assets/passport73.png">
+  <img width="450" src="assets/passport74.png">
+</p>
+
+Once you decide what you want your passphrase to be, make sure you write it down exactly as you have it entered in the Passport. Remember, any deviation from this passphrase going forward will result in a completely different wallet being generated and you will lose your bitcoin if you do not save this information correctly and test it prior to making deposits. The Passport has no way of knowing if you entered the correct passphrase or not and there is nothing that can be done to help you recover a lost or forgotten passphrase.
+
+The Passport will display the passphrase you are about to apply, if everything looks correct, click on <kbd>YES</kbd> to apply the passphrase. 
+
+![](assets/passport75.png)
+
+Once a passphrase is applied, you will notice the "P" shield in the upper left-hand corner signifying that a passphrase has been applied and that you are operating in a different wallet than the one you initially logged into. Also, if you want to be prompted for your passphrase upon logging into your Passport in the future then you can enable this setting by navigating to and selecting `Enter at Startup` >  `Enabled`.
+
+<p align="center">
+  <img width="450" src="assets/passport76.png">
+  <img width="450" src="assets/passport77.png">
+</p>
+
+Next, you want to ensure that you write down the fingerprint as well along with your passphrase. The finger print is a unique string of characters that helps you identify that you have entered your passphrase correctly and that you are operating in the correct wallet when using the Passport in the future. 
+
+You can find your wallet's fingerprint be navigating back to the `Settings` menu and then `About`. Note the `Master Fingerprint`.
+
+<p align="center">
+  <img width="450" src="assets/passport78.png">
+  <img width="450" src="assets/passport78.png">
+</p>
+
+Now that you have a seed phrase and passphrase created and your backup information secured, it is important to verify that your backup information is sufficient for recreating this exact wallet.  
