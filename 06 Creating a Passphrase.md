@@ -60,7 +60,7 @@ You can find your wallet's fingerprint be navigating back to the `Settings` menu
 
 <p align="center">
   <img width="450" src="assets/passport78.jpg">
-  <img width="450" src="assets/passport78.jpg">
+  <img width="450" src="assets/passport79.jpg">
 </p>
 
 Now that you have a seed phrase and passphrase created and your backup information secured, it is important to verify that your backup information is sufficient for recreating this exact wallet.  
