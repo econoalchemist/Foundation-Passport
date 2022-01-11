@@ -31,9 +31,9 @@ Then read the message that explains you understand all funds will be lost withou
 Once the Passport reboots itself, insert your microSD card with the encrypted backup file. Log back in and then from the main menu select `Restore Backup` then press <kbd>CONTINUE</kbd> to select the encrypted backup backup file from the microSD card. You probably only have one file to choose from, so select that file.   
 
 <p align="center">  
-  <img width="450" src="assets/passport86.jpg">
-  <img width="450" src="assets/passport87.jpg">
-  <img width="450" src="assets/passport88.jpg">
+  <img width="300" src="assets/passport86.jpg">
+  <img width="300" src="assets/passport87.jpg">
+  <img width="300" src="assets/passport88.jpg">
 </p>
 
 Next, you will be asked for your encrypted file password. Using the alphanumeric key pad, press the keys that spell the word you want. For example, to enter the word `ruin`, press `7`, `8`, `4` for `r`, `u`, `i` and then select `ruin` from the short list of possible words. 
