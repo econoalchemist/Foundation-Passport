@@ -1,1 +1,54 @@
+# Testing Backups
+This section will cover how to test your backups and ensure that you have all the information necessary to recover your wallet in the event that you no longer have access to your Passport. Verifying the viability of your backup is an important step to take prior to depositing any bitcoin to your wallet. This may seem counter intuitive after taking all that time to setup your new Passport but in this section you will see how to delete your private keys from your Passport. Then you will use your backup information to recreate your wallet. 
 
+This exercise not only ensures that your backup works but it also helps you understand the steps necessary to recover your wallet. You don't want to wait until you absolutely need to recover your funds to learn how this works. Doing some practice and understanding the steps now, before making bitcoin deposits, will help you remain calm and know all the steps when it really counts. 
+
+## From microSD Card
+First, ensure you have your encrypted file password written down. This is the 6-word password that your Passport generated for you when you setup the device. Login to the Passport and enter your passphrase, if you enabled the setting to prompt you for it at login. Then navigate to `Settings` > `Backup` > `View Password`. This will display your 6-words and you can confirm you have this information notated correctly. 
+
+<p align="center">
+  <img width="450" src="assets/passport80.jpg">
+  <img width="450" src="assets/passport91.jpg">
+  <img width="450" src="assets/passport92.jpg">
+  <img width="450" src="assets/passport93.jpg">
+</p>
+
+Second, navigate back to `Settings` then go to `Advanced` & `Erase Passport`. Then select <kbd>YES</kbd> to confirm that you wish to erase your Passport. 
+
+<p align="center">
+  <img width="300" src="assets/passport81.jpg">
+  <img width="300" src="assets/passport82.jpg">
+  <img width="300" src="assets/passport83.jpg">
+</p>  
+  
+Then read the message that explains you understand all funds will be lost without a proper backup. Scroll to the bottom of that message and then click on <kbd>confirm</kbd> to acknowledge you understand the risks. This will initiate the Passport to erase your seed phrase.  
+  
+<p align="center">  
+  <img width="450" src="assets/passport84.jpg">
+  <img width="450" src="assets/passport85.jpg">
+</p>
+
+Once the Passport reboots itself, insert your microSD card with the encrypted backup file. Log back in and then from the main menu select `Restore Backup` then press <kbd>CONTINUE</kbd> to select the encrypted backup backup file from the microSD card. You probably only have one file to choose from, so select that file.   
+
+<p align="center">  
+  <img width="450" src="assets/passport86.jpg">
+  <img width="450" src="assets/passport87.jpg">
+  <img width="450" src="assets/passport88.jpg">
+</p>
+
+Next, you will be asked for your encrypted file password. Using the alphanumeric key pad, press the keys that spell the word you want. For example, to enter the word `ruin`, press `7`, `8`, `4` for `r`, `u`, `i` and then select `ruin` from the short list of possible words. 
+
+<p align="center">
+ <img width="900" src="assets/passport89.jpg">
+</p>
+
+Repeat that process for all 6-words in order, making up your password. Then The Passport will alert you that the restoration was sucessful and that the device will now reboot. 
+
+<p align="center">
+ <img width="450" src="assets/passport90.jpg">
+</p>
+
+Next, 
+
+## From Written Seed Words
+First
