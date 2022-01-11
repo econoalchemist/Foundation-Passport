@@ -39,16 +39,33 @@ Once the Passport reboots itself, insert your microSD card with the encrypted ba
 Next, you will be asked for your encrypted file password. Using the alphanumeric key pad, press the keys that spell the word you want. For example, to enter the word `ruin`, press `7`, `8`, `4` for `r`, `u`, `i` and then select `ruin` from the short list of possible words. 
 
 <p align="center">
- <img width="900" src="assets/passport89.jpg">
+ <img width="750" src="assets/passport89.jpg">
 </p>
 
 Repeat that process for all 6-words in order, making up your password. Then The Passport will alert you that the restoration was sucessful and that the device will now reboot. 
 
 <p align="center">
- <img width="450" src="assets/passport90.jpg">
+ <img width="750" src="assets/passport90.jpg">
 </p>
 
-Next, 
+Next, you want to apply your passphrase and ensure you get the same fingerprint returned that you have notated. Navigate to `Advanced` > `Passphrase` > `Set Passphrase` then enter and apply your passphrase. 
+
+<p align="center">
+ <img width="450" src="assets/passport66.jpg">
+ <img width="450" src="assets/passport67.jpg">
+ <img width="450" src="assets/passport68.jpg">
+ <img width="450" src="assets/passport75.jpg"> 
+</p>
+
+
+With the passphrase applied, you can then navigate to `Settings` > `About` and view the Master Fingerprint there. This should match your records, if it does not match your records then you either entered the passphrase incorrectly or you have the wrong passphrase written down. 
+
+<p align="center">
+ <img width="450" src="assets/passport78.jpg">
+ <img width="450" src="assets/passport79.jpg">
+</p>
+
+
 
 ## From Written Seed Words
 First
