@@ -8,9 +8,9 @@ First, ensure you have your encrypted file password written down. This is the 6-
 
 <p align="center">
   <img width="450" src="assets/passport80.jpg">
-  <img width="450" src="assets/passport91.jpg">
-  <img width="450" src="assets/passport92.jpg">
-  <img width="450" src="assets/passport93.jpg">
+  <img width="450" src="assets/passport91_1.jpg">
+  <img width="450" src="assets/passport92_1.jpg">
+  <img width="450" src="assets/passport93_1.jpg">
 </p>
 
 Second, navigate back to `Settings` then go to `Advanced` & `Erase Passport`. Then select <kbd>YES</kbd> to confirm that you wish to erase your Passport. 
