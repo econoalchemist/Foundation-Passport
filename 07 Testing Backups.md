@@ -65,7 +65,9 @@ With the passphrase applied, you can then navigate to `Settings` > `About` and v
  <img width="450" src="assets/passport79.jpg">
 </p>
 
-
+Now you know that your encrypted backup file on your microSD card works to restore your wallet and that your passphrase works too.
 
 ## From Written Seed Words
-First
+This part demonstrates how to ensure the written seed phrase and passphrase can be used to restore your wallet. If you are only using the encrypted backup file on the microSD card then this step is not necessary for you. This is meant for people who want to write down their seed phrase or stamp it into metal. 
+
+First, ensure you have written down your seed phrase words correctly and in the right order. To verify this 
