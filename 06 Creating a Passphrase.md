@@ -45,7 +45,7 @@ Once you decide what you want your passphrase to be, make sure you write it down
 
 The Passport will display the passphrase you are about to apply, if everything looks correct, click on <kbd>YES</kbd> to apply the passphrase. 
 
-![](assets/passport75.png)
+![](assets/passport75.jpg)
 
 Once a passphrase is applied, you will notice the "P" shield in the upper left-hand corner signifying that a passphrase has been applied and that you are operating in a different wallet than the one you initially logged into. Also, if you want to be prompted for your passphrase upon logging into your Passport in the future then you can enable this setting by navigating to and selecting `Enter at Startup` >  `Enabled`.
 
