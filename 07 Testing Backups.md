@@ -89,4 +89,52 @@ Then you can scroll through the list of words on your Passport and compare it to
 
 ![](assets/passport99.jpg)
 
-Once you have verified that your seed words are notated correctly
+Once you have verified that your seed words are notated correctly, ensure that the passphrase you have notated works as well. You want to compare the fingerprint you have written down to the one displayed on your Pasport after applying the passphrase. 
+
+Navigate to `Settings` > `Advanced` > `Passphrase` > `Set Passphrase`. 
+
+<p align="center">
+  <img width="450" src="assets/passport65.jpg">
+  <img width="450" src="assets/passport66.jpg">
+  <img width="450" src="assets/passport67.jpg">
+  <img width="450" src="assets/passport68.jpg">
+</p>
+
+Enter your passphrase, then the Passport will display the passphrase you are about to apply, if everything looks correct, press <kbd>YES</kbd> to apply the passphrase. 
+
+<p align="center">
+  <img width="750" src="assets/passport75.jpg">
+</p>  
+
+Then view your wallet's fingerprint be navigating back to the `Settings` menu and then `About`. Note the `Master Fingerprint`. 
+
+<p align="center">
+  <img width="450" src="assets/passport78.jpg">
+  <img width="450" src="assets/passport79.jpg">
+</p>
+
+If everything looks good then you have verified that you have your seed words written down correctly and that your passphrase is correct and reproduces the same fingerprint. Now you can erase your Passport and restore from backup. Navigate back to `Settings` then go to `Advanced` & `Erase Passport`. Then select <kbd>YES</kbd> to confirm that you wish to erase your Passport. 
+
+<p align="center">
+  <img width="300" src="assets/passport81.jpg">
+  <img width="300" src="assets/passport82.jpg">
+  <img width="300" src="assets/passport83.jpg">
+</p>  
+  
+Then read the message that explains that by confirming, you understand all funds will be lost without a proper backup. Scroll to the bottom of that message and then press <kbd>confirm</kbd> to acknowledge you understand the risks. This will initiate the Passport to erase your seed phrase.  
+  
+<p align="center">  
+  <img width="450" src="assets/passport84.jpg">
+  <img width="450" src="assets/passport85.jpg">
+</p>
+
+Once the Passport reboots itself, log back in, then from the main menu select `Restore Seed` > `24-Word Seed` then scroll to the bottom of the message explaining how the predictive text works and press <kbd>CONTINUE</kbd>.   
+
+<p align="center">  
+  <img width="450" src="assets/passport100.jpg">
+  <img width="450" src="assets/passport101.jpg">
+  <img width="450" src="assets/passport102.jpg">
+  <img width="450" src="assets/passport103.jpg">
+</p>
+
+Next, you will enter your 24-word seed phrase in order. Simply press the 
