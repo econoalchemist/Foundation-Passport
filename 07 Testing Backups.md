@@ -70,4 +70,21 @@ Now you know that your encrypted backup file on your microSD card works to resto
 ## From Written Seed Words
 This part demonstrates how to ensure the written seed phrase and passphrase can be used to restore your wallet. If you are only using the encrypted backup file on the microSD card then this step is not necessary for you. This is meant for people who want to write down their seed phrase or stamp it into metal. 
 
-First, ensure you have written down your seed phrase words correctly and in the right order. To verify this 
+First, ensure you have written down your seed phrase words correctly and in the right order. To verify this, login to your Passport, then from the main menu select `Settings` > `Advanced` > `View Seed Words`. 
+
+<p align="center">
+ <img width="300" src="assets/passport94.jpg">
+ <img width="300" src="assets/passport95.jpg">
+ <img width="300" src="assets/passport96.jpg">
+</p>
+
+You will be presented with a message explaining that anyone with access to these words has access to your bitcoin. Press the down arrow to scroll to the bootom of the message then press <kbd>YES</kbd>. 
+
+<p align="center">
+ <img width="450" src="assets/passport97.jpg">
+ <img width="450" src="assets/passport95.jpg">
+</p>
+
+Then you can scroll through the list of words on your Passport and compare it to the list of words you have written down. Checking to be sure that the words are written down correctly and that they are in the right order. 
+
+![](assets/passport99.jpg)
