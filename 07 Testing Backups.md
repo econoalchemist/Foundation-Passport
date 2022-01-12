@@ -137,4 +137,14 @@ Once the Passport reboots itself, log back in, then from the main menu select `R
   <img width="450" src="assets/passport103.jpg">
 </p>
 
-Next, you will enter your 24-word seed phrase in order. Simply press the 
+Using the alphanumeric key pad, press the keys that spell the word you want. For example, to enter the word `flip`, press `3`, `5`, `4` for `f`, `l`, `i` and then select `flip` from the short list of possible words. Continue this process for all your seed words.
+
+<p align="center">  
+  <img width="300" src="assets/passport104.jpg">
+  <img width="300" src="assets/passport105.jpg">
+  <img width="300" src="assets/passport106.jpg">
+</p>  
+
+After you enter the 24th word, the Passport should automatically import the seed phrase and bring you back to the main menu. Now you want to apply your passphrase and then double check the resulting fingerprint to ensure you were able to restore your wallet exactly correct. Follow the steps above for entering your passphrase and then checking the fingerprint. 
+
+Now that you have verified that either your encrypted backup file or your written seed words, or both are valid and work accordingly, you can start making deposits to your Passport knowing that in a worst-case scenario, you indeed have the necessary backup information to recover your wallet. 
