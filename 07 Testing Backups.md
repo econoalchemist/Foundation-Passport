@@ -88,3 +88,5 @@ You will be presented with a message explaining that anyone with access to these
 Then you can scroll through the list of words on your Passport and compare it to the list of words you have written down. Checking to be sure that the words are written down correctly and that they are in the right order. 
 
 ![](assets/passport99.jpg)
+
+Once you have verified that your seed words are notated correctly
