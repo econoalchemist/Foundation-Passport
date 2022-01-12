@@ -21,7 +21,7 @@ Second, navigate back to `Settings` then go to `Advanced` & `Erase Passport`. Th
   <img width="300" src="assets/passport83.jpg">
 </p>  
   
-Then read the message that explains you understand all funds will be lost without a proper backup. Scroll to the bottom of that message and then click on <kbd>confirm</kbd> to acknowledge you understand the risks. This will initiate the Passport to erase your seed phrase.  
+Then read the message that explains that by confirming, you understand all funds will be lost without a proper backup. Scroll to the bottom of that message and then press <kbd>confirm</kbd> to acknowledge you understand the risks. This will initiate the Passport to erase your seed phrase.  
   
 <p align="center">  
   <img width="450" src="assets/passport84.jpg">
@@ -42,7 +42,7 @@ Next, you will be asked for your encrypted file password. Using the alphanumeric
  <img width="750" src="assets/passport89.jpg">
 </p>
 
-Repeat that process for all 6-words in order, making up your password. Then The Passport will alert you that the restoration was sucessful and that the device will now reboot. 
+Repeat that process for all 6-words in order, making up your password. Then The Passport will alert you that the restoration was sucessful and that the device will now reboot. You can remove the microSD card at this time.  
 
 <p align="center">
  <img width="750" src="assets/passport90.jpg">
