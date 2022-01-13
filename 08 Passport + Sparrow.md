@@ -34,13 +34,13 @@ Save those changes and then you should be able to connect to your BitcoinCore no
 Now you are ready to configure Sparrow Wallet to talk to your BitcoinCore node. Once you have Sparrow Wallet installed and launched, you will be presented with an empty user interface. Navigate to `File` > `Preferences`:
 
 <p align="center">
-  <img width="950" src="assets/sparrow00.png">
+  <img width="950" src="assets/sparrow22.png">
 </p>
 
-Then click on the <kbd>Server</kbd> tab on the left-hand side. Click on the <kbd>Bitcoin Core</kbd> tab for the `Server Type`. If running BitcoinCore on the same computer, use the `127.0.0.1` rpcbind IP address with `8332` as the port and the default authentication option. Or if running BitcoinCore on a different computer, use the same User/Pass that you entered in the `bitcoin.conf` file. Either way, set the Data Folder directory to the same folder the `bitcoin.conf` file is being written. This should be the same directory that BitcoinCore writes the `.cookie` file that Sparrow Wallet needs to read. Test the network connection from Sparrow Wallet. If it’s good, you should see the green check mark next to <kbd>Test Connection</kbd> and some information populated in the dialog box below that. Then you can close that window.   
+Then click on the <kbd>Server</kbd> tab on the left-hand side. Click on the <kbd>Bitcoin Core</kbd> tab for the `Server Type`. If running BitcoinCore on the same computer, use the `127.0.0.1` rpcbind IP address with `8332` as the port and the default authentication option. Or if running BitcoinCore on a different computer, use the same User/Pass that you entered in the `bitcoin.conf` file. Either way, set the Data Folder directory to the same folder the `bitcoin.conf` file is being written (you should have been promted to specify this folder when you launched BitcoinCore for the first time prior to Initial Block Download). This should be the same directory that BitcoinCore writes the `.cookie` file that Sparrow Wallet needs to read. Test the network connection from Sparrow Wallet. If it’s good, you should see the green check mark next to <kbd>Test Connection</kbd> and some information populated in the dialog box below that. Then you can close that window.   
 
 <p align="center">
-  <img width="750" src="sssets/sparrow21.png">
+  <img width="750" src="assets/sparrow21.png">
 </p>
 
 Unfortunately, BitcoinCore stores your public keys and balances unencrypted on the computer it is running on. Although your bitcoin are not directly at risk of theft, if this computer is regularly connected to the internet, it is at risk to hackers - which has the potential to make you a target if your balance and geographic location are discovered. To learn more about Sparrow Wallet best practices, check out [this Sparrow Wallet resource](https://www.sparrowwallet.com/docs/best-practices.html). 
@@ -81,7 +81,7 @@ This should launch your webcam, now you can pick your Passport back up and press
 Capturing the whole series of QR codes can take a moment so try to keep the passport steady and the QR codes within the dotted boundary lines on the Sparrow Wallet screen. You can skip ahead to the "After the Import" section. 
 
 ## Importing via File
-To import a single signature wallet via file, first login to your Passport and enter your passphrase if you are using one. Then from the main menu navigate to `Pair Wallet` > `Sparrow` > `Single-sig` > `microSD`. Once you press <kbd>CONTINUE</kbd> the Passport will start flashing a series of QR codes, so hold off pressing that for a moment while you prepare Sparrow Wallet on your desktop. 
+To import a single signature wallet via file, first login to your Passport and enter your passphrase if you are using one. Then from the main menu navigate to `Pair Wallet` > `Sparrow` > `Single-sig` > `microSD`. 
 
 <p align="center">
   <img width="450" src="assets/passport107.jpg">
@@ -139,8 +139,8 @@ On the left-hand side of the Sparrow Wallet interface there are six tabs. The <k
 If you imported your Passport wallet from file, you still need to scan an address to verify with your Passport. Navigate to the `Receive` tab in Sparrow Wallet, this will bring up a Bitcoin receive address along with the QR code. Now you can scan this QR code with your Passport to verify the wallet import was completed successfully.  
 
 <p align="center">
-  <img width="450" src="assets/sparrow09.png">
-  <img width="450" src="assets/sparrow11.jpg">
+  <img width="900" src="assets/sparrow09.png">
+  <img width="900" src="assets/sparrow11.jpg">
  </p> 
 
 Scan this QR code with your Passport and you should see a promt on the Passport saying "Pairing Complete". 
