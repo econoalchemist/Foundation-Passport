@@ -169,14 +169,14 @@ To create a PSBT, navigate to the <kbd>Spend</kbd> tab on the left-hand side in 
   
 With your Passport, ensure you have the passphrase applied, then from the main menu select `Scan with QR Code`. Then point the camera on the Passport to the flashing series of QR codes in the Sparrow Wallet interface. 
 
-![](assets/sparrow20.png)
+![](assets/sparrowxx.png)
 
 Once ready, click on the <kbd>Broadcast Transaction</kbd> button to send the signed transaction to the Bitcoin Network. 
 
-![](assets/sparrow21.png)
+![](assets/sparrowxx.png)
                                                           
 At the time of broadcast you should see the transaction in BitcoinCore as well as receive a notification in Sparrow Wallet. Again, you can copy the transaction ID and paste in your preferred block explorer to watch for confirmations.
                                                           
-![](assets/sparrow22.png)
+![](assets/sparrowxx.png)
 
 The main point here is that your Passport is the required signing device while your Sparrow Wallet is your interface, transaction builder, & broadcaster. In this configuration, Sparrow Wallet can do many things like catalog addresses and build transactions but without the signature from your Passport, Sparrow Wallet cannot authorize spending of any bitcoin. 
