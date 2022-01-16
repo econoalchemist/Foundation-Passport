@@ -76,7 +76,7 @@ This should launch your webcam, now you can pick your Passport back up and press
   <img widt="750" src="assets/passport112.jpg">
 </p>
 
-![](assets/sparrow02.png)
+![](assets/sparrow02_1.png)
 
 Capturing the whole series of QR codes can take a moment so try to keep the passport steady and the QR codes within the dotted boundary lines on the Sparrow Wallet screen. You can skip ahead to the "After the Import" section. 
 
