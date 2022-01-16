@@ -160,7 +160,7 @@ When you are ready to sign a transaction to spend bitcoin, it is necessary to cr
 
 
 ## Signing a PSBT via QR Code
-To create a PSBT, navigate to the <kbd>Spend</kbd> tab on the left-hand side in Sparrow Wallet. There, you can paste the address you are sending to, add a label, enter an amount to send, and choose a miners fee rate, etc. Once you have everything set, click on <kbd>Create Transaction</kbd>. On the next screen, double check the details then click on <kbd>Finalize Transaction for signing</kbd>. Then you will be asked what you want to do with the finalized PSBT. In this case, click on <kbd>Show QR</kbd> and Sparrow Wallet will launch an animated series of QR codes.  
+To create a PSBT, navigate to the <kbd>Send</kbd> tab on the left-hand side in Sparrow Wallet. There, you can paste the address you are sending to, add a label, enter an amount to send, and choose a miners fee rate, etc. Once you have everything set, click on <kbd>Create Transaction</kbd>. On the next screen, double check the details then click on <kbd>Finalize Transaction for signing</kbd>. Then you will be asked what you want to do with the finalized PSBT. In this case, click on <kbd>Show QR</kbd> and Sparrow Wallet will launch an animated series of QR codes.  
 
 <p align="center">
   <img width="450" src="assets/sparrow16.png">
@@ -194,12 +194,13 @@ Once Sparrow Wallet picks up the details of the signed transaction, then you can
 ![](assets/sparrow24.png)
 
 ## Signing a PSBT via microSD
-To create a PSBT, navigate to the <kbd>Spend</kbd> tab on the left-hand side in Sparrow Wallet. There, you can paste the address you are sending to, add a label, enter an amount to send, and choose a miners fee rate, etc. Once you have everything set, click on <kbd>Create Transaction</kbd>. On the next screen, double check the details then click on <kbd>Finalize Transaction for signing</kbd>. Then you will be asked what you want to do with the finalized PSBT. In this case, click on <kbd>Show QR</kbd> and Sparrow Wallet will launch an animated series of QR codes.
+To create a PSBT, navigate to the <kbd>Send</kbd> tab on the left-hand side in Sparrow Wallet. There, you can paste the address you are sending to, add a label, enter an amount to send, and choose a miners fee rate, etc. Once you have everything set, click on <kbd>Create Transaction</kbd>. On the next screen, double check the details then click on <kbd>Finalize Transaction for signing</kbd>. Then you will be asked what you want to do with the finalized PSBT. In this case, click on <kbd>Save Transaction</kbd> and Sparrow Wallet will launch your file explorer. Navigate to your microSD card and save the the finalized transaction there.
 
 <p align="center">
-  <img width="450" src="assets/sparrow16.png">
-  <img width="450" src="assets/sparrow17.png">
-  <img width="450" src="assets/sparrow18.png">
+  <img width="450" src="assets/sparrow27.png">
+  <img width="450" src="assets/sparrow28.png">
+  <img width="450" src="assets/sparrow29.png">
+  <img width="450" src="assets/sparrow30.png">
 </p>  
 
 
