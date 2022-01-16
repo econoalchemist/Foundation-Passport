@@ -169,14 +169,26 @@ To create a PSBT, navigate to the <kbd>Spend</kbd> tab on the left-hand side in 
   
 With your Passport, ensure you have the passphrase applied, then from the main menu select `Scan with QR Code`. Then point the camera on the Passport to the flashing series of QR codes in the Sparrow Wallet interface. 
 
-![](assets/sparrowxx.png)
+![](assets/passport118.jpg)
 
-Once ready, click on the <kbd>Broadcast Transaction</kbd> button to send the signed transaction to the Bitcoin Network. 
+On the Passport screen you will be shown the amount of bitcoin being spent & the address it is being spent to, press <kbd>CONTINUE</kbd> if the details are correct. The Passport will then tell you what the change amount is, if any, press <kbd>CONTINUE</kbd>. Lastly, the Passport will display the network fee, if everything is correct then press <kbd>SIGN</kbd>. 
 
-![](assets/sparrowxx.png)
+<p align="center">
+  <img width="300" src="assets/passport119.jpg">
+  <img width="300" src="assets/passport120.jpg">
+  <img width="300" src="assets/passport121.jpg">
+</p>
+
+Once the transaction is signed by the Passport, a QR code will be displayed on the Passport screen. Back on your desktop, in Sparrow Wallet, select the `Scan QR` button with the camera icon. This will launch your desktop webcam and you can hold the Passport infront of your webcam so that Sparrow Wallet can read the details of the signed transaction. 
+
+![](assets/sparrow23.png)
+
+Once Sparrow Wallet picks up the details of teh signed transaction, then you can broadcast the transaction to the Bitcoin network by pressing the <kbd>Broadcast Transaction</kbd> button.  
+
+![](assets/sparrow24.png)
                                                           
 At the time of broadcast you should see the transaction in BitcoinCore as well as receive a notification in Sparrow Wallet. Again, you can copy the transaction ID and paste in your preferred block explorer to watch for confirmations.
                                                           
-![](assets/sparrowxx.png)
+![](assets/sparrow25.png)
 
 The main point here is that your Passport is the required signing device while your Sparrow Wallet is your interface, transaction builder, & broadcaster. In this configuration, Sparrow Wallet can do many things like catalog addresses and build transactions but without the signature from your Passport, Sparrow Wallet cannot authorize spending of any bitcoin. 
