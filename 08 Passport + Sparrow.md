@@ -183,7 +183,7 @@ Once the transaction is signed by the Passport, a QR code will be displayed on t
 
 ![](assets/sparrow23.png)
 
-Once Sparrow Wallet picks up the details of teh signed transaction, then you can broadcast the transaction to the Bitcoin network by pressing the <kbd>Broadcast Transaction</kbd> button.  
+Once Sparrow Wallet picks up the details of the signed transaction, then you can broadcast the transaction to the Bitcoin network by pressing the <kbd>Broadcast Transaction</kbd> button.  
 
 ![](assets/sparrow24.png)
                                                           
