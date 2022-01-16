@@ -158,6 +158,8 @@ Now you can power off and secure your Passport in a safe place until you want to
 
 When you are ready to sign a transaction to spend bitcoin, it is necessary to create a PSBT. You can deposit bitcoin with your Passport disconnected but to spend bitcoin, the Passport needs to sign the transaction. Sparrow Wallet is used to build the transaction based on your available Unspent Transaction Outputs (UTXOs) and the information you enter when constructing the transaction. The PSBT details are passed between Sparrow Wallet and the Passport using the QR code exchange method or the microSD card. 
 
+
+## Signing a PSBT via QR Code
 To create a PSBT, navigate to the <kbd>Spend</kbd> tab on the left-hand side in Sparrow Wallet. There, you can paste the address you are sending to, add a label, enter an amount to send, and choose a miners fee rate, etc. Once you have everything set, click on <kbd>Create Transaction</kbd>. On the next screen, double check the details then click on <kbd>Finalize Transaction for signing</kbd>. Then you will be asked what you want to do with the finalized PSBT. In this case, click on <kbd>Show QR</kbd> and Sparrow Wallet will launch an animated series of QR codes.  
 
 <p align="center">
@@ -179,14 +181,31 @@ On the Passport screen you will be shown the amount of bitcoin being spent & the
   <img width="300" src="assets/passport121.jpg">
 </p>
 
-Once the transaction is signed by the Passport, a QR code will be displayed on the Passport screen. Back on your desktop, in Sparrow Wallet, select the `Scan QR` button with the camera icon. This will launch your desktop webcam and you can hold the Passport infront of your webcam so that Sparrow Wallet can read the details of the signed transaction. 
+Once the transaction is signed by the Passport, a QR code will be displayed on the Passport screen. Back on your desktop, in Sparrow Wallet, select the `Scan QR` button with the camera icon.  
 
 ![](assets/sparrow23.png)
+
+This will launch your desktop webcam and you can hold the Passport infront of your webcam so that Sparrow Wallet can read the details of the signed transaction.
+
+![](assets/sparrow26.png)
 
 Once Sparrow Wallet picks up the details of the signed transaction, then you can broadcast the transaction to the Bitcoin network by pressing the <kbd>Broadcast Transaction</kbd> button.  
 
 ![](assets/sparrow24.png)
-                                                          
+
+## Signing a PSBT via microSD
+To create a PSBT, navigate to the <kbd>Spend</kbd> tab on the left-hand side in Sparrow Wallet. There, you can paste the address you are sending to, add a label, enter an amount to send, and choose a miners fee rate, etc. Once you have everything set, click on <kbd>Create Transaction</kbd>. On the next screen, double check the details then click on <kbd>Finalize Transaction for signing</kbd>. Then you will be asked what you want to do with the finalized PSBT. In this case, click on <kbd>Show QR</kbd> and Sparrow Wallet will launch an animated series of QR codes.
+
+<p align="center">
+  <img width="450" src="assets/sparrow16.png">
+  <img width="450" src="assets/sparrow17.png">
+  <img width="450" src="assets/sparrow18.png">
+</p>  
+
+
+
+
+
 At the time of broadcast you should see the transaction in BitcoinCore as well as receive a notification in Sparrow Wallet. Again, you can copy the transaction ID and paste in your preferred block explorer to watch for confirmations.
                                                           
 ![](assets/sparrow25.png)
