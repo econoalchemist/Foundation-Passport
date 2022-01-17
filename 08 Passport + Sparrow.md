@@ -110,7 +110,7 @@ Next the Passport will ask you to verify that import was sucessful by scanning a
 
 Remove the microSD card from the Passport and insert it into a microSD to USB adaptor and insert that to your desktop computer running Sparrow Wallet. 
 
-![](assets/Sparrow10.jpg)
+![](assets/Sparrow10.JPG)
 
 In Sparrow Wallet on your desktop, navigate to `File` > `Import Wallet`.
 
