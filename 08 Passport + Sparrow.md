@@ -54,7 +54,7 @@ Unfortunately, BitcoinCore stores your public keys and balances unencrypted on t
 
 Now that Sparrow Wallet is connected with BitcoinCore, the Passport can be connected via QR code if you have a webcam on your computer or via microSD card if you do not have a webcam.  
 
-Since the Passport is strictly an air-gapped hadware wallet, a Partially Signed Bitcoin Transaction (PSBT) is utilized to spend bitcoin from the Passport. The information necessary to generate such transactions is imported to Sparrow with the QR codes from the Passport. Basically, the public information from the Passport called an XPUB will be used to import the necessary information into Sparrow Wallet on your desktop. By doing this, Sparrow Wallet will be able to generate receive addresses and QR codes, monitor the Passport's balance, and initiate PSBT's. All without exposing any of the private information from the Passport, like the signing key. 
+Since the Passport is strictly an air-gapped hadware wallet, a Partially Signed Bitcoin Transaction (PSBT) is utilized to spend bitcoin from the Passport. The information necessary to generate such transactions is imported to Sparrow with the QR codes from the Passport. Basically, the public information from the Passport called an XPUB will be used to import the necessary information into Sparrow Wallet on your desktop. By doing this, Sparrow Wallet will be able to generate receive addresses and QR codes, monitor the Passport's balance, and initiate PSBT's. All without exposing the signing key on the Passport. 
 
 You can also use the microSD card to transfer information between the desktop and the Passport but the QR codes enable a faster user experience. This section will cover both, starting with the QR code method. 
 
