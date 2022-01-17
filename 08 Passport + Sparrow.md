@@ -163,7 +163,7 @@ Back in Sparrow Wallet you can click on the <kbd>Receive</kbd> tab on the left-h
 
 Now you can power off and secure your Passport in a safe place until you want to sign a transaction and spend from it, several addresses will be cataloged in Sparrow Wallet so you can continue depositing to your Passport via Sparrow Wallet without having to reconnect it every time. Best practice is to confirm each receiving address on the Passport itself by navigating to `Verify Address` from the Passport main menu and scanning the displayed QR code in Sparrow Wallet with the Passport camera. Additionally only use each address once. 
 
-When you are ready to sign a transaction to spend bitcoin, it is necessary to create a PSBT. You can deposit bitcoin with your Passport disconnected but to spend bitcoin, the Passport needs to sign the transaction. Sparrow Wallet is used to build the transaction based on your available Unspent Transaction Outputs (UTXOs) and the information you enter when constructing the transaction. The PSBT details are passed between Sparrow Wallet and the Passport using the QR code exchange method or the microSD card. 
+When you are ready to sign a transaction to spend bitcoin, it is necessary to create a Partially Signed Bitcoin Transaction (PSBT). You can deposit bitcoin with your Passport stored away but to spend bitcoin, the Passport needs to sign the transaction. Sparrow Wallet is used to build the transaction based on your available Unspent Transaction Outputs (UTXOs) and the information you enter when constructing the transaction. The PSBT details are passed between Sparrow Wallet and the Passport using the QR code exchange method or the microSD card. 
 
 
 ## Signing a PSBT via QR Code
