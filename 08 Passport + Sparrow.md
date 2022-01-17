@@ -221,7 +221,7 @@ Take the microSD card, insert it into the Passport. Power on the Passport and lo
   <img width="450" src="assets/passport123.jpg"> 
 </p> 
 
-The passport will display the change, amount of any, press <kbd>CONTINUE</kbd>. Next, the network fee will be displayed, if everything looks correct, press <kbd>SIGN</kbd>. Then the Passport will save the signed `.psbt` to the microSD card. You can remove the microSD card and press <kbd>CONTINUE</kbd> then shut down your Passport.     
+The passport will display the change amount, if any, press <kbd>CONTINUE</kbd>. Next, the network fee will be displayed, if everything looks correct, press <kbd>SIGN</kbd>. Then the Passport will save the signed `.psbt` to the microSD card. You can remove the microSD card and press <kbd>CONTINUE</kbd> then shut down your Passport.     
 
 <p align="center">
   <img width="300" src="assets/passport124.jpg">
@@ -229,7 +229,7 @@ The passport will display the change, amount of any, press <kbd>CONTINUE</kbd>. 
   <img width="300" src="assets/passport126.jpg">
 </p> 
 
-Insert the microSD card into your USB adaptor and insert that into the computer. Then back in Sparrow Wallet, click on `Load Transaction` from the same screen you originally saved the `.psbt` file. Navigate to the microSC card and select the signed `.psbt` file. 
+Insert the microSD card into your USB adaptor and insert that into the computer. Then back in Sparrow Wallet, click on `Load Transaction` from the same screen you originally saved the `.psbt` file. Navigate to the microSD card and select the signed `.psbt` file. 
 
 ![](assets/sparrow31.png)
 
