@@ -213,19 +213,25 @@ Take the microSD card, insert it into the Passport. Power on the Passport and lo
 The passport will display the change, amount of any, press <kbd>CONTINUE</kbd>. Next, the network fee will be displayed, if everything looks correct, press <kbd>SIGN</kbd>. Then the Passport will save the signed `.psbt` to the microSD card. You can remove the microSD card and press <kbd>CONTINUE</kbd> then shut down your Passport.     
 
 <p align="center">
-  <img width="450" src="assets/passport124.jpg">
-  <img width="450" src="assets/passport125.jpg"> 
-  <img width="450" src="assets/passport126.jpg">
+  <img width="300" src="assets/passport124.jpg">
+  <img width="300" src="assets/passport125.jpg"> 
+  <img width="300" src="assets/passport126.jpg">
 </p> 
 
-Insert the microSD card into your USB adaptor and insert that into the computer. Then back in Sparrow Wallet, click on `Load Transaction` from the same screen you originally saved the `.psbt` file. 
+Insert the microSD card into your USB adaptor and insert that into the computer. Then back in Sparrow Wallet, click on `Load Transaction` from the same screen you originally saved the `.psbt` file. Navigate to the microSC card and select the signed `.psbt` file. 
 
 ![](assets/sparrow31.png)
 
+![](assets/sparrow32.png)
 
+Once the transaction is loaded, click on the <kbd>Broadcast Transaction</kbd> button in Sparrow Wallet to send the transaction to the Bitcoin network. 
+
+![](assets/sparrow33.png)
 
 At the time of broadcast you should see the transaction in BitcoinCore as well as receive a notification in Sparrow Wallet. Again, you can copy the transaction ID and paste in your preferred block explorer to watch for confirmations.
                                                           
-![](assets/sparrow25.png)
+![](assets/sparrow34.png)
 
 The main point here is that your Passport is the required signing device while your Sparrow Wallet is your interface, transaction builder, & broadcaster. In this configuration, Sparrow Wallet can do many things like catalog addresses and build transactions but without the signature from your Passport, Sparrow Wallet cannot authorize spending of any bitcoin. 
+
+You should now be able to connect your Passport with Sparrow Wallet and sign transactions via QR code or microSD card. 
