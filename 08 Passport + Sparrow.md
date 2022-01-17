@@ -194,16 +194,33 @@ Once Sparrow Wallet picks up the details of the signed transaction, then you can
 ![](assets/sparrow24.png)
 
 ## Signing a PSBT via microSD
-To create a PSBT, navigate to the <kbd>Send</kbd> tab on the left-hand side in Sparrow Wallet. There, you can paste the address you are sending to, add a label, enter an amount to send, and choose a miners fee rate, etc. Once you have everything set, click on <kbd>Create Transaction</kbd>. On the next screen, double check the details then click on <kbd>Finalize Transaction for signing</kbd>. Then you will be asked what you want to do with the finalized PSBT. In this case, click on <kbd>Save Transaction</kbd> and Sparrow Wallet will launch your file explorer. Navigate to your microSD card and save the the finalized transaction there.
+To create a PSBT, navigate to the <kbd>Send</kbd> tab on the left-hand side in Sparrow Wallet. There, you can paste the address you are sending to, add a label, enter an amount to send, and choose a miners fee rate, etc. Once you have everything set, click on <kbd>Create Transaction</kbd>. On the next screen, double check the details then click on <kbd>Finalize Transaction for signing</kbd>. Then you will be asked what you want to do with the finalized PSBT. In this case, click on <kbd>Save Transaction</kbd> and Sparrow Wallet will launch your file explorer. Navigate to your microSD card and save the the finalized transaction there. 
 
 <p align="center">
   <img width="450" src="assets/sparrow27.png">
-  <img width="450" src="assets/sparrow28.png">
+  <img width="450" src="assets/sparrow28.png"> 
   <img width="450" src="assets/sparrow29.png">
   <img width="450" src="assets/sparrow30.png">
 </p>  
 
+Take the microSD card, insert it into the Passport. Power on the Passport and login to it and apply the passphrase if necessary. Navigate to `Sign with microSD` then the Passport will display the amount to be spent and the destination address. Press <kbd>CONTINUE</kbd>.  
 
+<p align="center">
+  <img width="450" src="assets/passport122.jpg">
+  <img width="450" src="assets/passport123.jpg"> 
+</p> 
+
+The passport will display the change, amount of any, press <kbd>CONTINUE</kbd>. Next, the network fee will be displayed, if everything looks correct, press <kbd>SIGN</kbd>. Then the Passport will save the signed `.psbt` to the microSD card. You can remove the microSD card and press <kbd>CONTINUE</kbd> then shut down your Passport.     
+
+<p align="center">
+  <img width="450" src="assets/passport124.jpg">
+  <img width="450" src="assets/passport125.jpg"> 
+  <img width="450" src="assets/passport126.jpg">
+</p> 
+
+Insert the microSD card into your USB adaptor and insert that into the computer. Then back in Sparrow Wallet, click on `Load Transaction` from the same screen you originally saved the `.psbt` file. 
+
+![](assets/sparrow31.png)
 
 
 
