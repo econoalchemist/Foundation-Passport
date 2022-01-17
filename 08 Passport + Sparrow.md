@@ -106,7 +106,7 @@ Make sure you insert the microSD card. The Passport explains that it is about to
 
 Next the Passport will ask you to verify that import was sucessful by scanning an address generated from Sparrow Wallet and then scanning that address with the Passport camera to ensure it is an address that the Passport created. Set the Passport aside for now and go through the next section to get Sparrow Wallet ready to do this.  
 
-![](assets/passport116.png)
+![](assets/passport116.jpg)
 
 Remove the microSD card from the Passport and insert it into a microSD to USB adaptor and insert that to your desktop computer running Sparrow Wallet. 
 
