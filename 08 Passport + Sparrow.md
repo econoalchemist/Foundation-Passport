@@ -200,6 +200,10 @@ Once Sparrow Wallet picks up the details of the signed transaction, then you can
 
 ![](assets/sparrow24.png)
 
+At the time of broadcast you should see the transaction in BitcoinCore as well as receive a notification in Sparrow Wallet. Again, you can copy the transaction ID and paste in your preferred block explorer to watch for confirmations.
+                                                          
+![](assets/sparrow25.png)
+
 ## Signing a PSBT via microSD
 To create a PSBT, navigate to the <kbd>Send</kbd> tab on the left-hand side in Sparrow Wallet. There, you can paste the address you are sending to, add a label, enter an amount to send, and choose a miners fee rate, etc. Once you have everything set, click on <kbd>Create Transaction</kbd>. On the next screen, double check the details then click on <kbd>Finalize Transaction for signing</kbd>. Then you will be asked what you want to do with the finalized PSBT. In this case, click on <kbd>Save Transaction</kbd> and Sparrow Wallet will launch your file explorer. Navigate to your microSD card and save the the finalized transaction there. 
 
