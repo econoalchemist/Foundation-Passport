@@ -13,8 +13,10 @@ If you have BitcoinCore running on the same computer as Sparrow Wallet, then all
 
 If you are not sure where your `bitcoin.conf` file is located, you can always open it from within the BitcoinCore application by navigating to `Settings` > `Options` and then clicking on the <kbd>Open Configuration File</kbd> button in the pop-up window. Just be sure to close the application and restart it for those changes to take effect. 
 
-![](assets/bitcoincore00.png)
-![](assets/bitcoincore01.png)
+<p align="center">
+  <img width="750" src="assets/bitcoincore00.png">
+  <img width="750" src="assets/bitcoincore01.png">
+</p>
 
 Alternatively, if you are running BitcoinCore on a remote computer, you need to add a username & password and the Remote Procedure Calls (RPC) binding local IP addresses in the configuration file. To do this, navigate to the `bitcoin.conf` configuration file and open it in your preferred text editor. Then add the local IP address for your node and the local IP address for your desktop. For example:
 
