@@ -9,7 +9,12 @@ This section demonstrates how to connect Passport with Sparrow Wallet using your
 
 Once you have your BitcoinCore node ready, there are a couple steps needed to configure it to work with Sparrow Wallet. 
 
-If you have BitcoinCore running on the same computer as Sparrow Wallet, then all you need to do is open the `bitcoin.conf` configuration file and add `server=1` near the top and save it. Then relaunch BitcoinCore. You may have a blank configuration file if this was a new BitcoinCore install and that is fine.  
+If you have BitcoinCore running on the same computer as Sparrow Wallet, then all you need to do is open the `bitcoin.conf` configuration file and add `server=1` near the top and save it. Then relaunch BitcoinCore. You may have a blank configuration file if this was a new BitcoinCore install and that is fine. 
+
+If you are not sure where your `bitcoin.conf` file is located, you can always open it from within the BitcoinCore application by navigating to `Settings` > `Options` and then clicking on the <kbd>Open Configuration File</kbd> button in the pop-up window. Just be sure to close the application and restart it for those changes to take effect. 
+
+![](assets/bitcoincore00.png)
+![](assets/bitcoincore01.png)
 
 Alternatively, if you are running BitcoinCore on a remote computer, you need to add a username & password and the Remote Procedure Calls (RPC) binding local IP addresses in the configuration file. To do this, navigate to the `bitcoin.conf` configuration file and open it in your preferred text editor. Then add the local IP address for your node and the local IP address for your desktop. For example:
 
