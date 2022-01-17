@@ -143,14 +143,14 @@ After applying the changes, you can now navigate through your watch-only wallet 
 
 On the left-hand side of the Sparrow Wallet interface there are six tabs. The <kbd>Transactions</kbd> tab is where you can see information related to the transactions in this watch-only wallet. The <kbd>Send</kbd> tab is where you can create the PSBTs to then sign with Passport via QR code or microSD card. The <kbd>Receive</kbd> tab is where you can generate receive address for your Passport without having to retreive the Passport and log into it. The <kbd>Addresses</kbd> tab shows several deposit and change addresses as well as any balances. The <kbd>UTXOs</kbd> tab shows any unspent transaction outputs and a small graph charting the history. Finally, the <kbd>Settings</kbd> tab is where you can see detailed information about the watch-only wallet such as the master fingerprint, derivation path, & xpub.  
 
-If you imported your Passport wallet from file, you still need to scan an address to verify with your Passport. Navigate to the `Receive` tab in Sparrow Wallet, this will bring up a Bitcoin receive address along with the QR code. Now you can scan this QR code with your Passport to verify the wallet import was completed successfully.  
+If you imported your Passport wallet from file, you still need to scan an address to verify with your Passport. Navigate to the `Receive` tab in Sparrow Wallet, this will bring up a Bitcoin receive address along with the QR code.  
 
 <p align="center">
   <img width="900" src="assets/sparrow09.png">
   <img width="900" src="assets/sparrow11.jpg">
  </p> 
 
-Scan this QR code with your Passport and you should see a promt on the Passport saying "Pairing Complete". 
+Now you can scan this Sparrow Wallet QR code with your Passport to verify the wallet import was completed successfully. Your Passport should still be waiting for you to verify that the import was sucessful. Scan this QR code with your Passport and you should see a promt on the Passport saying "Pairing Complete". 
 
 Back in Sparrow Wallet you can click on the <kbd>Receive</kbd> tab on the left-hand side menu any time you want to generate a new receive address. You can scan this QR code with your mobile Bitcoin wallet, for example, and deposit some bitcoin to your Passport. You should see the transaction show up in Sparrow Wallet after a moment along with a pop-up notification. Also, in BitcoinCore, the transactions should show up there as well. The transaction will remain in a pending status until it receives some blockchain confirmations. In the mean-time, you can click on the <kbd>Transactions</kbd> tab and review further details about your transaction. You can also copy/paste your transaction ID in [mempool.space](https://mempool.space/) to watch for your first confirmation, or use whatever your preferred block explorer is. [Tor Browser](https://www.torproject.org/download/) is a privacy-focused browser.  
 
