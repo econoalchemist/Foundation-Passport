@@ -52,7 +52,7 @@ Then click on the <kbd>Server</kbd> tab on the left-hand side. Click on the <kbd
 
 Unfortunately, BitcoinCore stores your public keys and balances unencrypted on the computer it is running on. Although your bitcoin are not directly at risk of theft, if this computer is regularly connected to the internet, it is at risk to hackers - which has the potential to make you a target if your balance and geographic location are discovered. To learn more about Sparrow Wallet best practices, check out [this Sparrow Wallet resource](https://www.sparrowwallet.com/docs/best-practices.html). 
 
-Now that Sparrow Wallet is connected with BitcoinCore, the Passport can be connected via QR code if you have a webcam on your computer.  
+Now that Sparrow Wallet is connected with BitcoinCore, the Passport can be connected via QR code if you have a webcam on your computer or via microSD card if you do not have a webcam.  
 
 Since the Passport is strictly an air-gapped hadware wallet, a Partially Signed Bitcoin Transaction (PSBT) is utilized to spend bitcoin from the Passport. The information necessary to generate such transactions is imported to Sparrow with the QR codes from the Passport. Basically, the public information from the Passport called an XPUB will be used to import the necessary information into Sparrow Wallet on your desktop. By doing this, Sparrow Wallet will be able to generate receive addresses and QR codes, monitor the Passport's balance, and initiate PSBT's. All without exposing any of the private information from the Passport, like the signing key. 
 
