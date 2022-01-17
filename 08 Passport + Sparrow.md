@@ -85,7 +85,7 @@ This should launch your webcam, now you can pick your Passport back up and press
 
 ![](assets/sparrow02_1.png)
 
-Capturing the whole series of QR codes can take a moment so try to keep the passport steady and the QR codes within the dotted boundary lines on the Sparrow Wallet screen. You can skip ahead to the "After the Import" section. 
+Capturing the whole series of QR codes can take a moment so try to keep the passport steady and the QR codes within the dotted boundary lines on the Sparrow Wallet screen. You can skip ahead to the "After either QR code or File Import" section. 
 
 ## Importing via File
 To import a single signature wallet via file, first login to your Passport and enter your passphrase if you are using one. Then from the main menu navigate to `Pair Wallet` > `Sparrow` > `Single-sig` > `microSD`. 
