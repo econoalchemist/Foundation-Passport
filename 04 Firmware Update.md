@@ -31,7 +31,7 @@ Navigate to the Foundation [Setup page](https://docs.foundationdevices.com/en/se
 <img width="900" src="assets/Firmware00.png">
   </p>
 
-Clicking on that link will automatically initiate the Foundation firmware `.bin` file download to your computer. Using your own USB to microSD adaptor, insert your included microSD card into the USB adaptor and then insert that adaptor into a USB port on your computer. Once the computer recognizes your USB adaptor then simply open a file explorer and copy/paste the firmware `.bin` file to the microSD card. Then safely eject the microSD card.  
+Clicking on that link will automatically initiate the Foundation firmware `.bin` file download to your computer. If your computer is equipped with a microSD slot, then you can simply insert the microSD card. If your computer does not have a microSD slot then you may need to use your own USB-to-microSD adaptor, insert your included microSD card into the USB adaptor and then insert that adaptor into a USB port on your computer. Once the computer recognizes your USB adaptor then simply open a file explorer and copy/paste the firmware `.bin` file to the microSD card. Then safely eject the microSD card.  
 
  <p align="center">
   <img width="450" src="assets/Adaptor00.jpg">
