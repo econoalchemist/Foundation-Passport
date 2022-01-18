@@ -137,4 +137,58 @@ Once you send some bitcoin, the transaction will appear in BitcoinCore and Sparr
 
 ![](assets/sparrow54.png)
 
+Once you are ready to spend from your multisig wallet, setup the transaction the same way you do for a single signature transaction by navigating to the `Send` tab on the left-hand side of the Sparrow Wallet interface. There, you can input the Bitcoin address to spend to, add a label, enter the amount, set the miners fee and then click on <kbd>Create Transaction</kbd>. 
 
+![](assets/sparrow55.png)
+
+Then on the next screen click on <kbd>Finalize Transaction for Signing</kbd>.
+
+![](assets/sparrow56.png)
+
+At this point, you have a couple options, this transaction needs 2-of-3 signatures in order to be valid. One of the signatures can be provided by Sparrow Wallet since it is one of the cosigners. To sign with Sparrow Wallet, simply click on the <kbd>Sign</kbd> button in the lower left-hand corner and then one signature will be added. However, it would be beneficial for the purposes of this guide to demonstrate both hardware wallets signing. Starting with the COLDCARD, click on the <kbd>Save Transaction</kbd> button. 
+
+![](assets/sparrow57.png)
+
+This will launch the file explorer, navigate to the microSD card and save the transaction there. 
+
+![](assets/sparrow58.png)
+
+Take that microSD card and insert into the COLDCARD, then power it on and login and apply a passphrase, if necessary. From the main menu, select `Ready To Sign` then the COLDCARD will read the multisig transaction from the microSD card and ask if you want to create a new multisig wallet, press <kbd>OK</kbd>. The COLDCARD will then display the amount to be spent, the address being sent to, and the network fee. If everything looks good then press <kbd>OK</kbd>. Last, the COLDCARD will let you know when the transaction has been signed and what the name of the new file is. 
+
+<p align="center">
+  <img width="300" src="assets/coldcard10.jpg">
+  <img width="300" src="assets/coldcard11.jpg">
+  <img width="300" src="assets/coldcard12.jpg">
+  <img width="450" src="assets/coldcard13.jpg">
+  <img width="450" src="assets/coldcard14.jpg">
+</p> 
+
+You can now power down the COLDCARD and eject the microSD card. Insert the microSD card into your USB adaptor and insert that into the computer running Sparrow Wallet. Then, back in Sparrow Wallet, from the transaction screen click on <kbd>Load Transaction</kbd>. Then a file explorer will open, navigate to the microSD card and select the partially signed transaction.
+
+<p align="center">
+  <img width="450" src="assets/sparrow59.png">
+  <img width="450" src="assets/sparrow60.png">
+</p>
+
+You'll see one of the two required signatures populate in Sparrow Walet. Now you can sign with the Passport by pressing the <kbd>Show QR</kbd> button in Sparrow Wallet. An animated series of QR codes will be displayed in a pop up window.
+
+![](assets/sparrow61.png)
+![](assets/sparrow62.png)
+
+At this point, power on the Passport, login, and apply the passphrase if necessary. From the main menu, select `Sign with QR Code`. Then The Passport will ask you if you want to create a new multisig wallet, scroll to the bottom of that message and select to continue.  The amount to be spent and the destination address will be displayed, if there will be any change then that will also be displayed, and the network fee will be displayed. If all the details look correct, press <kbd>SIGN</kbd>.     
+
+<p align="center">
+  <img width="300" src="assets/passport133.jpg">
+  <img width="300" src="assets/passport134.jpg">
+  <img width="300" src="assets/passport135.jpg">
+  <img width="450" src="assets/passport136.jpg">
+  <img width="450" src="assets/passport137.jpg">
+</p>
+
+Then the Passport will let you know it is going to start flashing a series of QR codes in the next step, press <kbd>CONTINUE</kbd> then go back to Sparrow Wallet and click on <kbd>Scan QR</kbd>. The webcam will launch and then you can hold the Passport up to the camera so that Sparrow Wallet can scan the animated QR codes.
+
+![](assets/sparrow63.png)
+
+That makes 2-of-3 signatures and the transaction is now ready to be broad cast to the Bitcoin network. Simply click on the <kbd>Broadcast Transaction</kbd> button. 
+
+![](assets/sparrow64.png)
