@@ -61,7 +61,9 @@ If you have not done so already, you need to export the `.json` file with the xp
 
 After setting up your COLDCARD for the first time and securing your PIN and anti-phishing words, as well as upgrading the firmware; one of the first things you will do is insert a microSD card then generate a new wallet by navigating to `New Wallet` from the main menu, if you have not set up a wallet on this COLDCARD already.
 
-![](assets/coldcard00.jpg)
+<p align="center">
+ <img width="750" src="assets/coldcard00.jpg">
+</p>  
 
 Then the COLDCARD will randomly generate and display 24 seed words, again do not share these words with anyone, they will have access to 1-of-3 signing keys. Do not take a screenshot of these words, do not store them in a digital format, do not take a pictre of them with your phone, you will compromise the security of your multisig setup. Write these words down on paper at the very least and consider stamping them into metal for a backup that can withstand extreme environmental hazards. 
 
