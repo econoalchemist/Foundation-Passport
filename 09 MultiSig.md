@@ -124,8 +124,15 @@ The Passport will display a message saying to scan the following QR codes into S
 
 Sparrow will use the QR code information to automatically populate the necessary information for `Keystore 3`. Then you can click on <kbd>Apply</kbd>. Then Sparrow will ask you if you would like to add a password, this is an optional password that encrypts the wallet data file on your computer to prevent anyone from gaining access to this information by gaining access to your computer. 
 
-![](sparrow51.png)
+![](assets/sparrow51.png)
+![](assets/sparrow52.png)
 
 Now you can navigate through your new multisig wallet, for example, from the `Receive` tab you can display a deposit address that you can scan with your mobile Bitcoin wallet or copy/paste the address as necessary to deposit some bitcoin to your new multisig wallet. 
 
-![](assets/sparrow52.png)
+![](assets/sparrow53.png)
+
+Once you send some bitcoin, the transaction will appear in BitcoinCore and Sparrow Wallet, you can copy/paste the txid into your favorite block explorer and watch the mempool progress. Once your bitcoin is deposited in your multisig wallet, you will need to provide at least 2-of-3 signatures from the 3 wallets to spend this bitcoin. 
+
+![](assets/sparrow54.png)
+
+
