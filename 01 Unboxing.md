@@ -1,4 +1,4 @@
-## Unboxing
+# Unboxing
 
 Generally speaking, it is good practice to use a P.O. Box when ordering Bitcoin related products or materials. This helps prevent your exposure to risks associated with data breaches. If you have any suspicion that your device was tampered with in transit, contact [hello@foundationdevices.com](mailto:hello@foundationdevices.com).  
 
