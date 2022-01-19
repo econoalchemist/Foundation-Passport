@@ -2,13 +2,13 @@
 
 For this section you will need an USB adaptor and your included microSD card. Keeping the firmware on the Passport is important as this is how new features are introduced, quality of life improvements are made, security issues are resolved, and bugs are fixed. Foundation regularly releases firmware updates so be sure to stay up to date with these as they occur. Navigate to the official [Foundation firmware page](https://docs.foundationdevices.com/en/firmware-update) to see more details. 
 
-In this section updating the firmware will be demonstrated in two ways. The first way involves fewer steps but foregoes independant verification, the second way demonstrates using the developer's PGP public keys and signatures to cryptographically verify the integrity of the firmware file. 
+In this section updating the firmware will be demonstrated in two ways. The first way involves fewer steps but foregoes independent verification, the second way demonstrates using the developer's PGP public keys and signatures to cryptographically verify the integrity of the firmware file. 
 
 The Passport will only allow firmware to be installed if it has been signed by at least two out of four possible Foundation developer PGP keys. This gives beginner or intermediate users the ability to update their firmware with a reasonable degree of confidence, while giving advanced users the ability to verify the integrity of the firmware themselves. 
 
 Before getting started with either approach outlined below, first check your Passport to compare the currently installed firmware version with the currently available firmware version. 
 
-Log into your Passport by powering it on, typing in the first 4-digits of your PIN, confirming your two anti-phing words, and entering the remainder of your PIN. From the main menu, navigate to `Settings > Firmware > Current Version`.
+Log into your Passport by powering it on, typing in the first 4-digits of your PIN, confirming your two anti-phishing words, and entering the remainder of your PIN. From the main menu, navigate to `Settings > Firmware > Current Version`.
 
  <p align="center">
 <img width="300" src="assets/passport36.jpg">
@@ -120,13 +120,14 @@ Now compare the displayed finger print in the Kleopatra dialog to a publicly dis
 <img width="900" src="assets/Firmware08.png">
   </p>
   
-Now when you try to validate a signature file signed by the Foundation key it will give you the green dialog box, instead of the white colored dialog box which means that the signature is valid but not certified. It is important to be able to distinguish between a certified & valid signature (green), a valid but not certified signature (white), and an invalid signature (red). 
+Now when you try to validate a signature file signed by the Foundation key it will give you the green dialog box, instead of the white colored dialog box which means that the signature is valid but not certified. It is important to be able to distinguish between a certified & valid signature (green), a valid but not certified signature (white), and an invalid
+ signature (red). 
 
 <p align="center">
 <img width="900" src="assets/Firmware09.png">
   </p>
   
-Navigate to the folder where you saved the firmware `.bin` file and the developers `.sig` signature file. Right click on the `.bin` file then select `More GpgEX options` > `Verify`. Then you should get the green certified and verifid dialog box.   
+Navigate to the folder where you saved the firmware `.bin` file and the developers `.sig` signature file. Right click on the `.bin` file then select `More GpgEX options` > `Verify`. Then you should get the green certified and verified dialog box.   
   
 <p align="center">
 <img width="650" src="assets/Firmware10.png">
