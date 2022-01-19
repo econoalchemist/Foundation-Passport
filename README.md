@@ -12,5 +12,7 @@ This guide covers:
 - Firmware Update
 - Creating a Seed Phrase
 - Creating a Passphrase
-- Backup Considerations
-- Connecting & Transaction with [Sparrow Wallet](https://www.sparrowwallet.com/)
+- Testing Backups
+- Passport + [Sparrow Wallet](https://www.sparrowwallet.com/)
+- Multisig Wallets
+- Additional Features 
