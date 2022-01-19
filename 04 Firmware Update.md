@@ -1,6 +1,6 @@
 # Firmware Update
 
-For this section you will need an USB adaptor and your included microSD card. Keeping the firmware on the Passport is important as this is how new features are introduced, quality of life improvements are made, security issues are resolved, and bugs are fixed. Foundation regularly releases firmware updates so be sure to stay up to date with these as they occur. Navigate to the official [Foundation firmware page](https://docs.foundationdevices.com/en/firmware-update) to see more details. 
+For this section you will need an USB adaptor for your included microSD card, unless your computer has a microSD card port. Keeping the firmware on the Passport up to date is important as this is how new features are introduced, quality of life improvements are made, security issues are resolved, and bugs are fixed. Foundation regularly releases firmware updates so be sure to stay up to date with these as they occur. Navigate to the official [Foundation firmware page](https://docs.foundationdevices.com/en/firmware-update) to see more details. 
 
 In this section updating the firmware will be demonstrated in two ways. The first way involves fewer steps but foregoes independent verification, the second way demonstrates using the developer's PGP public keys and signatures to cryptographically verify the integrity of the firmware file. 
 
