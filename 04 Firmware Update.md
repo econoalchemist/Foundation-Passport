@@ -8,7 +8,7 @@ The Passport will only allow firmware to be installed if it has been signed by a
 
 Before getting started with either approach outlined below, first check your Passport to compare the currently installed firmware version with the currently available firmware version. 
 
-Log into your Passport by powering it on, typing in the first 4-digits of your PIN, confirming your two anti-phishing words, and entering the remainder of your PIN. From the main menu, navigate to `Settings > Firmware > Current Version`.
+Log into your Passport by powering it on, typing in the first 4-digits of your PIN, confirming your two anti-phishing words, and entering the remainder of your PIN. From the main menu, navigate to `Settings` > `Firmware` > `Current Version`.
 
  <p align="center">
 <img width="300" src="assets/passport36.jpg">
