@@ -11,7 +11,7 @@ If you want to add a passphrase to your Passport, this section will show you how
 
 After you add a passphrase, in order to have a complete backup, you will need:
 
-- The microSD card with the encrypted backup file
+- The microSD card with the encrypted backup file (or the 24-words in writting)
 - The 6-word password to decrypt it
 - The passphrase & fingerprint  
 
