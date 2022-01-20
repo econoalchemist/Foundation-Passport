@@ -211,7 +211,7 @@ Now that you see how multisig works, it is important to backup the appropriate i
 
 
 |Location | Seed Phrase | Passphrase | XPUB |
-|:--------|:-----------:|:----------:|-----:|
+|:-------:|:-----------:|:----------:|:----:|
 | L1      | S1          | P2 & P3    | X3   |
 | L2      | S2          | P3 & P1    | X1   |
 | L3      | S3          | P1 & P2    | X2   |
