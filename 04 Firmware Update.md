@@ -84,7 +84,7 @@ You will need to have your own PGP key pair setup in Kleopatra (the key manager 
 
 Also, for Windows users, there is a handy freeware hex editor called [HxD](https://mh-nexus.de/en/hxd/) that makes calculating hash values easy. 
 
-Once you have Gpg4win installed, your own PGP key configured, and HxD installed, navigate to [the Foundation GitHub repository](https://github.com/Foundation-Devices/passport-firmware/releases) and download the latest firmware file, signature file, and make note of the firmware file hash value. Save the two files in a convinient folder and keep a tab open to easily refer back to the hash value in a few steps.   
+Once you have Gpg4win installed, your own PGP key configured, and HxD installed, navigate to [the Foundation GitHub repository](https://github.com/Foundation-Devices/passport-firmware/releases) and download the latest firmware file, signature file, and make note of the firmware file hash value. Save the two files in a convenient folder and keep a tab open to easily refer back to the hash value in a few steps.   
 
 <p align="center">
 <img width="900" src="assets/Firmware03.png">
