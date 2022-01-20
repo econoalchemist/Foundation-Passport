@@ -3,6 +3,8 @@ This section will cover how to test your backups and ensure that you have all th
 
 This exercise not only ensures that your backup works but it also helps you understand the steps necessary to recover your wallet. You don't want to wait until you absolutely need to recover your funds to learn how this works. Doing some practice and understanding the steps now, before making bitcoin deposits, will help you remain calm and know all the steps when it really counts. 
 
+This section demonstrates restoring from both the microSD card and the written 24-word seed phrase, starting with the microSD card method. 
+
 ## From microSD Card
 First, ensure you have your encrypted file password written down. This is the 6-word password that your Passport generated for you when you setup the device. Login to the Passport and enter your passphrase, if you enabled the setting to prompt you for it at login. Then navigate to `Settings` > `Backup` > `View Password`. This will display your 6-words and you can confirm you have this information notated correctly. 
 
@@ -28,7 +30,7 @@ Then read the message that explains that by confirming, you understand all funds
   <img width="450" src="assets/passport85.jpg">
 </p>
 
-Once the Passport reboots itself, insert your microSD card with the encrypted backup file. Log back in and then from the main menu select `Restore Backup` then press <kbd>CONTINUE</kbd> to select the encrypted backup backup file from the microSD card. You probably only have one file to choose from, so select that file.   
+Once the Passport reboots itself, insert your microSD card with the encrypted backup file. Log back in and then from the main menu select `Restore Backup` then press <kbd>CONTINUE</kbd> to select the encrypted backup file from the microSD card. You probably only have one file to choose from, so select that file.   
 
 <p align="center">  
   <img width="300" src="assets/passport86.jpg">
@@ -42,7 +44,7 @@ Next, you will be asked for your encrypted file password. Using the alphanumeric
  <img width="750" src="assets/passport89.jpg">
 </p>
 
-Repeat that process for all 6-words in order, making up your password. Then The Passport will alert you that the restoration was sucessful and that the device will now reboot. You can remove the microSD card at this time.  
+Repeat that process for all 6-words in order, making up your password. Then The Passport will alert you that the restoration was successful and that the device will now reboot. You can remove the microSD card at this time.  
 
 <p align="center">
  <img width="750" src="assets/passport90.jpg">
@@ -78,7 +80,7 @@ First, ensure you have written down your seed phrase words correctly and in the 
  <img width="300" src="assets/passport96.jpg">
 </p>
 
-You will be presented with a message explaining that anyone with access to these words has access to your bitcoin. Press the down arrow to scroll to the bootom of the message then press <kbd>YES</kbd>. 
+You will be presented with a message explaining that anyone with access to these words has access to your bitcoin. Press the down arrow to scroll to the bottom of the message then press <kbd>YES</kbd>. 
 
 <p align="center">
  <img width="450" src="assets/passport97.jpg">
@@ -89,7 +91,7 @@ Then you can scroll through the list of words on your Passport and compare it to
 
 ![](assets/passport99.jpg)
 
-Once you have verified that your seed words are notated correctly, ensure that the passphrase you have notated works as well. You want to compare the fingerprint you have written down to the one displayed on your Pasport after applying the passphrase. 
+Once you have verified that your seed words are notated correctly, ensure that the passphrase you have notated works as well. You want to compare the fingerprint you have written down to the one displayed on your Passport after applying the passphrase. 
 
 Navigate to `Settings` > `Advanced` > `Passphrase` > `Set Passphrase`. 
 
