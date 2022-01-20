@@ -58,7 +58,7 @@ Once a passphrase is applied, you will notice the "P" shield in the upper left-h
 
 Next, you want to ensure that you write down the fingerprint as well along with your passphrase. The fingerprint is a unique string of characters that helps you identify that you have entered your passphrase correctly and that you are operating in the correct wallet when using the Passport in the future. 
 
-You can find your wallet's fingerprint be navigating back to the `Settings` menu and then `About`. Note the `Master Fingerprint`.
+You can find your wallet's fingerprint by navigating back to the `Settings` menu and then `About`. Note the `Master Fingerprint`.
 
 <p align="center">
   <img width="450" src="assets/passport78.jpg">
