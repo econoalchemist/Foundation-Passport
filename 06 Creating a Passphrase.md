@@ -5,7 +5,7 @@ There are some important considerations to make with passphrases:
 
 - With the added security comes added complication. Keep in mind that it may not be you attempting to recover your bitcoin, it may be your loved ones who may not understand how Bitcoin wallets work. 
 - The Passport (or any BIP39 wallet) has no way of knowing whether or not you entered the correct passphrase. Any passphrase entered will cause the wallet to display a fully functioning and valid bitcoin wallet. But only when you enter your passphrase correctly will the right wallet be opened. A "fingerprint" is used to uniquely identify the wallet so you know it is the right one.
-- You will now need to secure an extra piece of information for a complete backup. This can a disadvantage if you want to minimize the information required to access your bitcoin or this could be advantageous if you leverage it as a duress feature. 
+- You will now need to secure an extra piece of information for a complete backup. This can be a disadvantage if you want to minimize the information required to access your bitcoin or this could be advantageous if you leverage it as a duress feature. 
 
 If you want to add a passphrase to your Passport, this section will show you how to do it. Make sure you write this information down in a notebook and secure it. The passphrase is not stored in your Passport encrypted backup file. 
 
