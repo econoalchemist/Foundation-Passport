@@ -15,7 +15,6 @@ After you add a passphrase, in order to have a complete backup, you will need:
 - The 6-word password to decrypt the backup file
 - The passphrase & fingerprint  
 
-### Step 1
 Login to the Passport and then from the main menu select `Settings` > `Advanced` > `Passphrase` > `Set Passphrase`. 
 
 <p align="center">
