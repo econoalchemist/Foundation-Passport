@@ -106,13 +106,13 @@ Make sure you insert the microSD card. The Passport explains that it is about to
 
 Next the Passport will ask you to verify that import was successful by scanning an address generated from Sparrow Wallet and then scanning that address with the Passport camera to ensure it is an address that the Passport created. Set the Passport aside for now and go through the next section to get Sparrow Wallet ready to do this.  
 
-<p align="center">
- <img width="700" src="assets/passport116.jpg">
-</p>
+![](assets/passport116.jpg)
 
 Remove the microSD card from the Passport and insert it into a microSD to USB adaptor and insert that to your desktop computer running Sparrow Wallet. Or if your computer has a microSD card port then you can just use that without the USB adaptor.  
 
-![](assets/sparrow10.jpg)
+<p align="center">
+ <img width="700" src="assets/sparrow10.jpg">
+</p>
 
 In Sparrow Wallet on your desktop, navigate to `File` > `Import Wallet`.
 
@@ -127,7 +127,7 @@ This should launch your file explorer where you can navigate to the file locatio
 ![](assets/sparrow08.png)
 
 ## After either QR code or File Import
-Once the necessary information has been gathered by Sparrow Wallet, either by QR code import or by `.json` file import, you should be taken back to the previous menu screen in Sparrow Wallet. This time though, you should notice that you can choose the `Script Type` from a drop down menu, this is where you can choose whether you want to use legacy Bitcoin addresses that start with "1", or Nested SegWit addresses that start with "3", or Native SegWit addresses that start with "bc1q", or Taproot addresses that start with "bc1p". In this demo, Native SegWit, "bc1q" addresses are used. 
+Once the necessary information has been gathered by Sparrow Wallet, either by QR code import or by `.json` file import, you should be taken back to the previous menu screen in Sparrow Wallet. This time though, you should notice that you can choose the `Script Type` from a drop down menu, this is where you can choose whether you want to use legacy Bitcoin addresses that start with "1", or Nested SegWit addresses that start with "3", or Native SegWit addresses that start with "bc1q", or Taproot addresses that start with "bc1p". Although Sparrow Wallet is ready to handle Taproot addresses, this is anticipated to be implemented in the Passport Q1 2022. In this demo, Native SegWit, "bc1q" addresses are used. 
 
 ![](assets/sparrow03.png)
   
@@ -231,7 +231,7 @@ The passport will display the change amount, if any, press <kbd>CONTINUE</kbd>. 
   <img width="300" src="assets/passport126.jpg">
 </p> 
 
-Insert the microSD card into your USB adaptor and insert that into the computer. Then back in Sparrow Wallet, click on `Load Transaction` from the same screen you originally saved the `.psbt` file. Navigate to the microSD card and select the signed `.psbt` file. 
+Insert the microSD card into your computer or use the USB adaptor and insert that into the computer if necessary. Then back in Sparrow Wallet, click on `Load Transaction` from the same screen you originally saved the `.psbt` file. Navigate to the microSD card and select the signed `.psbt` file. 
 
 ![](assets/sparrow31.png)
 
@@ -245,6 +245,6 @@ At the time of broadcast you should see the transaction in BitcoinCore as well a
                                                           
 ![](assets/sparrow34.png)
 
-The main point here is that your Passport is the required signing device while your Sparrow Wallet is your interface, transaction builder, & broadcaster. In this configuration, Sparrow Wallet can do many things like catalog addresses and build transactions but without the signature from your Passport, Sparrow Wallet cannot authorize spending of any bitcoin. 
+The main point here is that your Passport is the required signing device while your Sparrow Wallet is your interface, transaction builder, & broadcaster. In this configuration, Sparrow Wallet can do many things like catalog addresses and build transactions but without the signature from your Passport, Sparrow Wallet cannot authorize spending of any bitcoin secured by the Passport. 
 
-You should now be able to connect your Passport with Sparrow Wallet and sign transactions via QR code or microSD card. 
+You should now be able to connect your Passport with Sparrow Wallet and sign transactions via QR code or microSD card in a single signature manner. In the next section, multisig configurations will be explained.  
