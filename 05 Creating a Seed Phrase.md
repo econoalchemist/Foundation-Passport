@@ -49,7 +49,7 @@ If you are interested in saving your seed phrase in some alternate form, it can 
 <img width="300" src="assets/passport61.jpg">
   </p>
   
-Then a message will be displayed explaining the risk of exposing these seed words to anyone. Scroll to the bottom of the message and select <kbe>YES</kbd> to display this sensitive information.    
+Then a message will be displayed explaining the risk of exposing these seed words to anyone. Scroll to the bottom of the message and select <kbd>YES</kbd> to display this sensitive information.    
 
  <p align="center">
 <img width="450" src="assets/passport62.jpg">
