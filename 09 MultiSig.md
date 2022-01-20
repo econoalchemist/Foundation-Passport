@@ -209,10 +209,12 @@ Once the transaction is broadcast, you will see it in BitcoinCore and you will g
 
 Now that you see how multisig works, it is important to backup the appropriate information and test those backups before depositing any bitcoin to your new multisig wallet. Be sure to have the seed words written down in order, then think about stamping them in metal. Have your passphrase written down and consider stamping that in metal. Have your XPUBs written down as well and consider stamping those in metal. There are a number of creative solutions you can employ to conceal backup information in different geographic locations. For example, say you have a 2-of-3 multisig, each wallet has a 24-word seed phrase, we'll call it "S" in this example. Each wallet also has a passphrase, we'll call it "P". And each wallet has an XPUB, we'll call that "X". You could in theory then store your backup information like:
 
-...
-Location 1 = S1, P2, P3, X3
-Location 2 = S2, P3, P1, X1
-Location 3 = S3, P1, P2, X2
-...
+
+|Location | Seed Phrase | Passphrase | XPUB |
+|:--------|:-----------:|:----------:|-----:|
+| L1      | S1          | P2 & P3    | X3   |
+| L2      | S2          | P3 & P1    | X1   |
+| L3      | S3          | P1 & P2    | X2   |
+
 
 That way if anyone else finds any of the backup packs, they will not have enough information to spend any Bitcoin. But if you are able to recover any two of the three backup packs, then you will have enough information to restore your multisig wallet and sign a transaction. 
