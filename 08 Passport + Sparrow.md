@@ -1,7 +1,7 @@
 # Connecting Passport with Sparrow Wallet
 In this section you will see how to import information to Sparrow Wallet that allows you to monitor your Passport bitcoin balance, generate receive addresses, and create transactions all while keeping the Passport air-gapped. Sparrow Wallet is a desktop Bitcoin wallet designed to be connected with your own node. This is a user-friendly wallet with an intuitive interface and many capabilities and advanced features. To learn more about Sparrow Wallet and for installation instructions, visit the [Sparrow Wallet website](https://www.sparrowwallet.com/).
 
-This section demonstrates how to connect Passport with Sparrow Wallet using your own BitcoinCore node. If you don't have your own Bitcoin node, you can use reputable public Electrum servers. However, there are privacy tradeoffs that come with using the convenience of a public Electrum server. Luckily there are a number of resources available to help you spin up your own Bitcoin node, to learn more check out:
+This section demonstrates how to connect Passport with Sparrow Wallet using your own BitcoinCore node. If you don't have your own Bitcoin node, you can use reputable public Electrum servers. However, there are privacy trade offs that come with using the convenience of a public Electrum server. Luckily there are a number of resources available to help you spin up your own Bitcoin node, to learn more check out:
 
 - [BitcoinCore.org](https://bitcoincore.org/en/about/)
 - [Ministry of Nodes](https://www.ministryofnodes.com.au/) 
@@ -44,7 +44,7 @@ Now you are ready to configure Sparrow Wallet to talk to your BitcoinCore node. 
   <img width="950" src="assets/sparrow22.png">
 </p>
 
-Then click on the <kbd>Server</kbd> tab on the left-hand side. Click on the <kbd>Bitcoin Core</kbd> tab for the `Server Type`. If running BitcoinCore on the same computer, use the `127.0.0.1` rpcbind IP address with `8332` as the port and the default authentication option. Or if running BitcoinCore on a different computer, use the same User/Pass that you entered in the `bitcoin.conf` file. Either way, set the Data Folder directory to the same folder the `bitcoin.conf` file is being written (you should have been promted to specify this folder when you launched BitcoinCore for the first time prior to Initial Block Download). This should be the same directory that BitcoinCore writes the `.cookie` file that Sparrow Wallet needs to read. Test the network connection from Sparrow Wallet. If it’s good, you should see the green check mark next to <kbd>Test Connection</kbd> and some information populated in the dialog box below that. If the connection is not good, try shutting down Sparrow Wallet, then ensure that BitcoinCore is up and running and connected to some peers, then restart Sparrow Wallet and try again. Then you can close that window.   
+Then click on the <kbd>Server</kbd> tab on the left-hand side. Click on the <kbd>Bitcoin Core</kbd> tab for the `Server Type`. If running BitcoinCore on the same computer, use the `127.0.0.1` rpcbind IP address with `8332` as the port and the default authentication option. Or if running BitcoinCore on a different computer, use the same User/Pass that you entered in the `bitcoin.conf` file. Either way, set the Data Folder directory to the same folder the `bitcoin.conf` file is being written (you should have been prompted to specify this folder when you launched BitcoinCore for the first time prior to Initial Block Download). This should be the same directory that BitcoinCore writes the `.cookie` file that Sparrow Wallet needs to read. Test the network connection from Sparrow Wallet. If it’s good, you should see the green check mark next to <kbd>Test Connection</kbd> and some information populated in the dialog box below that. If the connection is not good, try shutting down Sparrow Wallet, then ensure that BitcoinCore is up and running and connected to some peers, then restart Sparrow Wallet and try again. Then you can close that window.   
 
 <p align="center">
   <img width="750" src="assets/sparrow21.png">
@@ -54,7 +54,7 @@ Unfortunately, BitcoinCore stores your public keys and balances unencrypted on t
 
 Now that Sparrow Wallet is connected with BitcoinCore, the Passport can be connected via QR code if you have a webcam on your computer or via microSD card if you do not have a webcam.  
 
-Since the Passport is strictly an air-gapped hadware wallet, a Partially Signed Bitcoin Transaction (PSBT) is utilized to spend bitcoin from the Passport. The information necessary to generate such transactions is imported to Sparrow with the QR codes from the Passport. Basically, the public information from the Passport called an XPUB will be used to import the necessary information into Sparrow Wallet on your desktop. By doing this, Sparrow Wallet will be able to generate receive addresses and QR codes, monitor the Passport's balance, and initiate PSBT's. All without exposing the signing key on the Passport. 
+Since the Passport is strictly an air-gapped hardware wallet, a Partially Signed Bitcoin Transaction (PSBT) is utilized to spend bitcoin from the Passport. The information necessary to generate such transactions is imported to Sparrow with the QR codes from the Passport. Basically, the public information from the Passport called an XPUB will be used to import the necessary information into Sparrow Wallet on your desktop. By doing this, Sparrow Wallet will be able to generate receive addresses and QR codes, monitor the Passport's balance, and initiate PSBT's. All without exposing the signing key on the Passport. 
 
 You can also use the microSD card to transfer information between the desktop and the Passport but the QR codes enable a faster user experience. This section will cover both, starting with the QR code method. 
 
@@ -104,11 +104,13 @@ Make sure you insert the microSD card. The Passport explains that it is about to
   <img width="450" src="assets/passport115.jpg">
 </p>
 
-Next the Passport will ask you to verify that import was sucessful by scanning an address generated from Sparrow Wallet and then scanning that address with the Passport camera to ensure it is an address that the Passport created. Set the Passport aside for now and go through the next section to get Sparrow Wallet ready to do this.  
+Next the Passport will ask you to verify that import was successful by scanning an address generated from Sparrow Wallet and then scanning that address with the Passport camera to ensure it is an address that the Passport created. Set the Passport aside for now and go through the next section to get Sparrow Wallet ready to do this.  
 
-![](assets/passport116.jpg)
+<p align="center">
+ <img width="700" src="assets/passport116.jpg">
+</p>
 
-Remove the microSD card from the Passport and insert it into a microSD to USB adaptor and insert that to your desktop computer running Sparrow Wallet. 
+Remove the microSD card from the Passport and insert it into a microSD to USB adaptor and insert that to your desktop computer running Sparrow Wallet. Or if your computer has a microSD card port then you can just use that without the USB adaptor.  
 
 ![](assets/sparrow10.jpg)
 
@@ -133,7 +135,7 @@ Next, Sparrow Wallet will ask you to name your new wallet. This can be whatever 
 
 ![](assets/sparrow04.png)
   
-Then Sparrow Wallet will ask you if you want to use a password on this wallet. This password is what encrypts your wallet data file on your desktop and it is optional. If anyone gains access to your desktop, they could potentially open your wallet data file if it is not password protected. In this case, even if someone does open your wallet data file, they would not be able to spend your bitcoin becuase a signature from the Passport would be required to do that.  
+Then Sparrow Wallet will ask you if you want to use a password on this wallet. This password is what encrypts your wallet data file on your desktop and it is optional. If anyone gains access to your desktop, they could potentially open your wallet data file if it is not password protected. In this case, even if someone does open your wallet data file, they would not be able to spend your bitcoin because a signature from the Passport would be required to do that.  
   
  ![](assets/sparrow05.png) 
 
@@ -141,7 +143,7 @@ After applying the changes, you can now navigate through your watch-only wallet 
 
 ![](assets/sparrow06.png)
 
-On the left-hand side of the Sparrow Wallet interface there are six tabs. The <kbd>Transactions</kbd> tab is where you can see information related to the transactions in this watch-only wallet. The <kbd>Send</kbd> tab is where you can create the PSBTs to then sign with Passport via QR code or microSD card. The <kbd>Receive</kbd> tab is where you can generate receive address for your Passport without having to retreive the Passport and log into it. The <kbd>Addresses</kbd> tab shows several deposit and change addresses as well as any balances. The <kbd>UTXOs</kbd> tab shows any unspent transaction outputs and a small graph charting the history. Finally, the <kbd>Settings</kbd> tab is where you can see detailed information about the watch-only wallet such as the master fingerprint, derivation path, & xpub.  
+On the left-hand side of the Sparrow Wallet interface there are six tabs. The <kbd>Transactions</kbd> tab is where you can see information related to the transactions in this watch-only wallet. The <kbd>Send</kbd> tab is where you can create the PSBTs to then sign with Passport via QR code or microSD card. The <kbd>Receive</kbd> tab is where you can generate receive address for your Passport without having to retrieve the Passport and log into it. The <kbd>Addresses</kbd> tab shows several deposit and change addresses as well as any balances. The <kbd>UTXOs</kbd> tab shows any unspent transaction outputs and a small graph charting the history. Finally, the <kbd>Settings</kbd> tab is where you can see detailed information about the watch-only wallet such as the master fingerprint, derivation path, & xpub.  
 
 If you imported your Passport wallet from file, you still need to scan an address to verify with your Passport. Navigate to the `Receive` tab in Sparrow Wallet, this will bring up a Bitcoin receive address along with the QR code.  
 
@@ -150,7 +152,7 @@ If you imported your Passport wallet from file, you still need to scan an addres
   <img width="900" src="assets/sparrow11.jpg">
  </p> 
 
-Now you can scan this Sparrow Wallet QR code with your Passport to verify the wallet import was completed successfully. Your Passport should still be waiting for you to verify that the import was sucessful. Scan this QR code with your Passport and you should see a promt on the Passport saying "Pairing Complete". 
+Now you can scan this Sparrow Wallet QR code with your Passport to verify the wallet import was completed successfully. Your Passport should still be waiting for you to verify that the import was successful. Scan this QR code with your Passport and you should see a prompt on the Passport saying "Pairing Complete". 
 
 Back in Sparrow Wallet you can click on the <kbd>Receive</kbd> tab on the left-hand side menu any time you want to generate a new receive address. You can scan this QR code with your mobile Bitcoin wallet, for example, and deposit some bitcoin to your Passport. You should see the transaction show up in Sparrow Wallet after a moment along with a pop-up notification. Also, in BitcoinCore, the transactions should show up there as well. The transaction will remain in a pending status until it receives some blockchain confirmations. In the mean-time, you can click on the <kbd>Transactions</kbd> tab and review further details about your transaction. You can also copy/paste your transaction ID in [mempool.space](https://mempool.space/) to watch for your first confirmation, or use whatever your preferred block explorer is. [Tor Browser](https://www.torproject.org/download/) is a privacy-focused browser.  
 
@@ -192,7 +194,7 @@ Once the transaction is signed by the Passport, a QR code will be displayed on t
 
 ![](assets/sparrow23.png)
 
-This will launch your desktop webcam and you can hold the Passport infront of your webcam so that Sparrow Wallet can read the details of the signed transaction.
+This will launch your desktop webcam and you can hold the Passport in front of your webcam so that Sparrow Wallet can read the details of the signed transaction.
 
 ![](assets/sparrow26.png)
 
