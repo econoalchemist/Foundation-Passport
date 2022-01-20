@@ -5,6 +5,8 @@ This guide explains how to get started with a [Passport](https://foundationdevic
   <img width="900" src="assets/TitleImage.jpg">
 </p>
 
+Keep an out for announcements from [@FOUNDATIONdvcs](https://twitter.com/FOUNDATIONdvcs), they are anticipating releasing a new version of the Passport around March 2022.  
+
 This guide covers:
 - Unboxing
 - Supply Chain Validation
