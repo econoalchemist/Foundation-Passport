@@ -141,7 +141,7 @@ Next, open the `.bin` firmware file with HxD and then navigate to `Analysis` > `
 <img width="900" src="assets/Firmware11.png">
   </p>
   
-Now you are ready to load the verified firmware file on your microSD card and import it to your Passport. Using your own USB to microSD adaptor, insert your included microSD card into the USB adaptor and then insert that adaptor into a USB port on your computer. Or if your computer has a microSD card port then you can just use that. Once the computer recognizes your USB adaptor then simply open a file explorer and copy/paste the firmware `.bin` file to the microSD card. Then safely eject the microSD card.  
+Now you are ready to load the verified firmware file on your microSD card and import it to your Passport. Using your own USB to microSD adaptor, insert your included microSD card into the USB adaptor and then insert that adaptor into a USB port on your computer. Or if your computer has a microSD card port then you can just use that. Once the computer recognizes your USB adaptor or the microSd card then simply open a file explorer and copy/paste the firmware `.bin` file to the microSD card. Then safely eject the microSD card.  
 
  <p align="center">
   <img width="450" src="assets/Adaptor00.jpg">
