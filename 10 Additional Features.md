@@ -1,5 +1,5 @@
 # Additional Features
-This sections covers a few additional features at a high level. This is meant more a reference material than step by step instructions.
+This sections covers a few additional features at a high level. This is meant more a reference material than step by step instructions. This is not an exhaustive list, just some useful highlights. 
 
 ### Change the screen brightness
 Purpose: Helps save on battery life, easier to view the screen in low light environments. 
